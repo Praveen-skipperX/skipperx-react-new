@@ -19,6 +19,7 @@ import Login from './pages/login';
 import Email from './pages/email';
 import Contact from './pages/contact';
 import Otp from './pages/otp';
+import Cooking from './pages/cooking';
 //import Forget from './pages/forget';
 
 
@@ -45,6 +46,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/email" element={<Email />} />
         <Route path="/otp" element={<Otp />} />
+        <Route path="/cooking" element={<Cooking />} />
         
 
       </Routes>

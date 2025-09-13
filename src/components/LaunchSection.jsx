@@ -1,9 +1,10 @@
 import React from 'react';
 import './LaunchSection.css';
+import { Link } from 'react-router-dom';
 
 const LaunchSection = () => {
   return (
-    <section className="launch-section">
+    <section className="launch-section" id="launch-navigate">
       <div className="launch-container">
 
        
@@ -18,7 +19,8 @@ const LaunchSection = () => {
             <em>Programs</em>
           </h3>
           <p>Next-gen learning designed to launch your career.</p>
-          <button className="launch-btn">Explore Programs</button>
+          
+          <Link to="/cooking" className="navlink"><button className="launch-btn">Explore Programs</button></Link>
         </div>
 
         
