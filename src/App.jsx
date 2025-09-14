@@ -22,12 +22,14 @@ import Otp from './pages/otp';
 import Cooking from './pages/cooking';
 //import Forget from './pages/forget';
 
+import ScrollToTop from './components/ScrollToTop';
+
 
 
 function App() {
   return (
     <Router>
-      
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Home />} />
