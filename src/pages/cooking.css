@@ -187,3 +187,110 @@
   display: none;
 }
 
+/* Default (Desktop / Tablet) */
+.coming-soon-content h1 {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.coming-soon-content p {
+  font-size: 20px;
+  margin: 10px 0 25px;
+  color: #b0a7a7;
+}
+
+.notify-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: nowrap; /* Stay inline by default */
+}
+
+.notify-form input {
+  padding: 12px 20px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  background: #eee;
+  width: 260px;
+}
+
+.notify-form button {
+  padding: 12px 25px;
+  border-radius: 0 8px 8px 0;
+  background: linear-gradient(to right, #FE8324, #FF4101);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* ✅ Mobile View */
+@media (max-width: 480px) {
+    .coming-soon-container {
+       height: 800px;
+    }
+  .coming-soon-content {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 95%;
+    padding: 0 10px;
+  }
+
+  .coming-soon-content h1 {
+    font-size: 28px;
+  }
+  .notify-form button {
+    height: 40px;
+  }
+
+  .coming-soon-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .notify-form {
+    flex-wrap: nowrap; /* Keep input + button inline */
+    width: 100%;
+  }
+
+  .notify-form input {
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .notify-form button {
+    flex-shrink: 0;
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+    gap: 15px;
+  }
+  .mini-goldmine::before {
+    left: 80px;
+    }
+
+    .mini-goldmine::after {
+    right: 80px;
+    }
+
+  .social-icons i {
+    font-size: 20px;
+  }
+  .horizontal-scroll-section{
+    display: none;
+  }
+  .coming-soon-bg-img{
+    margin-top: 230px;
+  }
+}
