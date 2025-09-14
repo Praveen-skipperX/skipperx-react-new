@@ -38,7 +38,7 @@ const programs = [
 
 const EngineeringPrograms = () => {
   return (
-    <section className="eng-section">
+    <section className="eng-section" id="launch-navigate">
       <div className="best-heading-section">
         <hr className="l" />
         <h1>

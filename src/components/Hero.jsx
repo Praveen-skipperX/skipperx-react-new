@@ -12,8 +12,17 @@ const Hero = () => {
           Your dream skill is, not days, not hours but <span className="highlight-red">minutes </span> away
         </h1>
         <p>Built for Innovators, Entrepreneur & Hustlers</p>
-        <button className="btn red">Explore Programs</button>
+        <button className="btn red" onClick={() => {
+                document
+                  .getElementById('launch-navigate')
+                  .scrollIntoView({ behavior: 'smooth' });
+              }}>Explore Programs</button>
       </div>
+
+
+
+
+      
     </div>
   );
 };

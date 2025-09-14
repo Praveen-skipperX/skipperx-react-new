@@ -151,7 +151,11 @@ const TestimonialCarousel = () => {
           <img src={sai} alt="avatar" />
           <span>4K+ members have completed <br></br>this program, be one of them</span>
         </div>
-        <button className="avabtn">Explore Programs</button>
+        <button className="avabtn" onClick={() => {
+                document
+                  .getElementById('launch-navigate')
+                  .scrollIntoView({ behavior: 'smooth' });
+              }}>Explore Programs</button>
       </div>
     </section>
   );

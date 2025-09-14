@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const LaunchSection = () => {
   return (
-    <section className="launch-section" id="launch-navigate">
+    <section className="launch-section" >
       <div className="launch-container">
 
        
