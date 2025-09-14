@@ -1,6 +1,5 @@
-import React from 'react';
-import './Hero.css';
 import bgImage from '../assets/hero-landing-hd.png';
+import './Hero.css';
 
 
 const Hero = () => {
@@ -12,7 +11,18 @@ const Hero = () => {
           Your dream skill is, not days, not hours but <span className="highlight-red">minutes </span> away
         </h1>
         <p>Built for Innovators, Entrepreneur & Hustlers</p>
-        <button className="btn red">Explore Programs</button>
+        <button
+          className="btn red"
+          onClick={() => {
+            const section = document.getElementById("innovators");
+            if (section) {
+              section.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          Explore Programs
+        </button>
+
       </div>
     </div>
   );
