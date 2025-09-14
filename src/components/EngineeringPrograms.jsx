@@ -1,13 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import "./EngineeringPrograms.css";
-import arrowIcon from "../assets/arrows.png";
 import avatar1 from "../assets/A1.png";
 import avatar2 from "../assets/A2.png";
 import avatar3 from "../assets/A3.png";
+import bg3 from "../assets/ar1.png";
+import arrowIcon from "../assets/arrows.png";
 import bg1 from "../assets/dro1.png";
 import bg2 from "../assets/robo1.png";
-import bg3 from "../assets/ar1.png";
+import "./EngineeringPrograms.css";
 
 const programs = [
   {
@@ -42,7 +41,7 @@ const EngineeringPrograms = () => {
       <div className="best-heading-section">
         <hr className="l" />
         <h1>
-          For <span className="proo">Innovators</span>
+          For <span className="proo" id="innovators">Innovators</span>
         </h1>
         <hr className="r" />
       </div>

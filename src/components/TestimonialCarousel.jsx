@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from "react";
-import "./TestimonialCarousel.css";
-import testimonials from "./testimonialData";
+import { useEffect, useRef, useState } from "react";
+import hari from '../assets/harih.jpg';
 import navya from '../assets/navya.png';
 import sai from '../assets/sai.jpg';
-import hari from '../assets/harih.jpg';
 import sakshi from '../assets/saksh.png';
+import "./TestimonialCarousel.css";
+import testimonials from "./testimonialData";
 
 const TestimonialCarousel = () => {
   const [index, setIndex] = useState(1); // Start from first real slide
@@ -82,14 +82,14 @@ const TestimonialCarousel = () => {
 
       <div
         className="carousel-wrapper"
-        // onMouseEnter={() => {
-        //   isHovered.current = true;
-        //   stopAutoPlay();
-        // }}
-        // onMouseLeave={() => {
-        //   isHovered.current = false;
-        //   startAutoPlay();
-        // }}
+      // onMouseEnter={() => {
+      //   isHovered.current = true;
+      //   stopAutoPlay();
+      // }}
+      // onMouseLeave={() => {
+      //   isHovered.current = false;
+      //   startAutoPlay();
+      // }}
       >
         <button className="nav prev" onClick={prevSlide}>
           ‹
@@ -151,7 +151,14 @@ const TestimonialCarousel = () => {
           <img src={sai} alt="avatar" />
           <span>4K+ members have completed <br></br>this program, be one of them</span>
         </div>
-        <button className="avabtn">Explore Programs</button>
+        <button className="avabtn"
+          onClick={() => {
+            const section = document.getElementById("innovators");
+            if (section) {
+              section.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >Explore Programs</button>
       </div>
     </section>
   );
