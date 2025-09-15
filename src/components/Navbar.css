@@ -1,3 +1,5 @@
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -103,28 +105,28 @@
   font-size: 18px;
   color: white;
   width: 150px;
-  border: 1px solid #292929;
+  border: 2px solid #181818;
   height: 52px;
 }
 
 .btn.white {
-  background-color: white;
-  border: 1.5px solid #ccc;
+  background-color: #000;
+  border: 2px solid #ccc;
   font-size: 18px;
-  color: black;
-  border: 1px solid #292929;
+  color: rgb(252, 251, 251);
+  border: 2px solid #181818;
   width: 150px;
   height: 52px;
 }
 
 .btn.black:hover {
-  background-color: #333;
+  background-color: #080808;
   transform: scale(1.03);
   transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn.white:hover {
-  background-color: #f2f2f2;
+  background-color: #080808;
   transform: scale(1.03);
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -250,7 +252,8 @@
   left: 0;
   background: white;
   color: black;
-  min-width: 180px;
+  min-width: 599px;
+  margin-top: 15px;
   padding: 10px 0;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.1);
@@ -289,3 +292,87 @@
 
 
 
+
+/* The main dropdown container */
+.mega-dropdown {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: -10%;
+  right: 0;
+  background-color: #000000;
+  color: white;
+  padding: 40px 20px 10px;
+  display: grid;
+  height: 300px;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.mega-dropdown.show {
+  display: grid;
+}
+
+/* Column headings and description text */
+.mega-column h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: playfair display;
+  margin-bottom: 5px;
+}
+
+.mega-column p {
+  font-size: 12px;
+  color: #aaa;
+  max-width: 350px;
+  margin-bottom: 16px;
+}
+
+/* Each card style */
+.mega-card {
+  display: flex;
+  gap: 15px;
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+}
+.mega-car:hover{
+  background: #343333;
+}
+.mega-card img {
+  width: 82px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card-text h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card-text span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+
+
+.card-link {
+  text-decoration: none;  /* Remove underline */
+  color: inherit;         /* Keep white color like the rest of the text */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.card-link:hover{
+  background-color: #1e1d1d;
+  
+}
