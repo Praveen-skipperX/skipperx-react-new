@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 120px;
+  margin-top: -40px;
   position: relative;
 }
 
@@ -18,10 +19,11 @@
 }
 
 .about-hero-title {
-  font-size: 58px;
+  font-size: 48px;
   font-weight: bold;
   font-family: "Playfair Display", serif;
   margin-bottom: 16px;
+  margin-top: 150px;
   line-height: 120%;
 }
 
@@ -98,6 +100,7 @@
   }
   .about-hero-title {
     font-size: 22px;
+    margin-top: 0px;
   }
   .about-hero-subtitle {
     font-size: 13px;
@@ -171,7 +174,7 @@
 }
 
 .highlight-text-about {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 600;
   background: linear-gradient(90deg,  #FE8324 10%, #FF4101 100%);
   -webkit-background-clip: text;
@@ -215,10 +218,19 @@
   .quote-text {
     font-size: 16px;
   }
+  .highlight-text-about {
+    font-size: 18px;
+  }
   .founders-list {
     gap: 20px;
   }
 }
+
+
+
+
+
+
 
 .skipperx-gallery {
   background-color: #1C1C1C;
@@ -234,7 +246,7 @@
   margin-bottom: 40px;
 }
 
-.gallery-line1 {
+.gallery-line1a {
   flex: 1 1;
   height: 2px;
   background: linear-gradient(to left,  #fffdfd 20%,#ede7e7 20%, #313030 70%);
@@ -243,7 +255,7 @@
   max-width: 265px;
   margin-top: 27px;
 }
-.gallery-line2 {
+.gallery-line2a {
   flex: 1 1;
   height: 2px;
   background: linear-gradient(to right,  #fffdfd 20%,#ede7e7 20%, #313030 70%);
@@ -255,10 +267,10 @@
 
 .gallery-heading {
   font-size: 38px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   white-space: nowrap;
-  font-family: 'Playfair Display';
+  
 }
 
 .skipperx-gallery-images {
@@ -293,6 +305,8 @@
 
   .gallery-image-container {
     width: 100%;
+        display: flex;
+    flex-direction: row;
   }
   .sub-quote{
     font-size: 16px;
@@ -301,6 +315,41 @@
     width: 350px;
   }
 }
+
+@media (min-width: 1440px) {
+  .skipperx-gallery-images{
+    padding: 0 150px;
+  }
+  .people-grid1a{
+    margin-left: 80px;
+  }
+  .mv-content2 p{
+    margin-left: 75px;
+    
+  }
+  .mv-content p{
+    margin-left: 70px;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -482,6 +531,7 @@
 .people-headera h2 {
   font-size: 38px;
   font-weight: 500;
+  font-family: playfair display;
 }
 
 .highlight-abouta {
@@ -669,4 +719,22 @@
   }
   
 }
+
+
+.third{
+  width: 347px !important;
+  height: 273px !important;
+}
+.fourth{
+  width: 290px !important;
+  height: 273px !important;
+}
+.fifth{
+  width: 323px !important;
+  height: 273px !important;
+}
+.gallery-image-container1{
+  gap: 12px !important;
+}
+
 

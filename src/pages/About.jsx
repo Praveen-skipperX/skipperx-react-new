@@ -10,6 +10,9 @@ import founder3 from "../assets/vcf.png";
 import founder4 from "../assets/cf4.png";
 import img1 from "../assets/ab1.png";
 import img2 from "../assets/ab22.png";
+import img3 from "../assets/ab21.png";
+import img4 from "../assets/ab23.png";
+import img5 from "../assets/ab24.png";
 import missionImg from "../assets/missionImg.png";
 import visionImg from "../assets/visionImg.png";
 import image1 from "../assets/co-founder.png";
@@ -52,7 +55,7 @@ const About = () => {
           <p className="about-hero-subtitle">
             Training future pros who actually get hired
           </p>
-          <button className="about-hero-btn">Explore Programs</button>
+          
         </div>
       </div>
 
@@ -188,9 +191,9 @@ const About = () => {
 
         <div className="skipperx-gallery">
           <div className="skipperx-gallery-title">
-            <hr className="gallery-line1" />
+            <hr className="gallery-line1a" />
             <h2 className="gallery-heading">Here’s what SkipperX is all about</h2>
-            <hr className="gallery-line2" />
+            <hr className="gallery-line2a" />
           </div>
           <div className="skipperx-gallery-images">
             <div className="gallery-image-container">
@@ -198,6 +201,15 @@ const About = () => {
             </div>
             <div className="gallery-image-container">
               <img src={img2} alt="Training Session" />
+            </div>
+             <div className="gallery-image-container1">
+              <img src={img3} alt="Team Collaboration" className="third"/>
+            </div>
+            <div className="gallery-image-container1">
+              <img src={img4} alt="Group Meeting" className="fourth"/>
+            </div>
+            <div className="gallery-image-container1">
+              <img src={img5} alt="Celebration Event" className="fifth" />
             </div>
             
           </div>

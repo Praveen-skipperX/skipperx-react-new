@@ -7,11 +7,12 @@
 }
 
 .accredited-text {
-  font-size: 24px;
+  font-size: 38px;
   margin-bottom: 16px;
   font-family: Playfair Display;
   font-style: bold italic;
   margin-top: -10px;
+  margin-bottom: 24px;
 }
 .accredited-text em{
 background: linear-gradient(to right, #ff7b6a, #ff4101);

@@ -40,7 +40,7 @@ const SuperStack = () => {
         </h1>
         <hr className="r" />
       </div>
-      <p className="stackland-subheading">Dive into today’s Trendiest Innovations</p>
+      <p className="stackland-subheading">All-in-one bundles to grow and create</p>
       <div className="stack-card-container">
         {stackData.map((item, index) => (
           <Link className="navlink"
