@@ -305,8 +305,6 @@
 
   .gallery-image-container {
     width: 100%;
-        display: flex;
-    flex-direction: row;
   }
   .sub-quote{
     font-size: 16px;

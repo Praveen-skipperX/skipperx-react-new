@@ -213,6 +213,9 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
   .trust-wrapper {
     padding: 72px 16px 36px 16px;
   }
+  .accredited-text {
+    font-size: 23px;
+  }
   
   .logo-row{
     margin-bottom: 72px;

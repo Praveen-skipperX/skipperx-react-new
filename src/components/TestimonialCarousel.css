@@ -174,7 +174,9 @@
   right: 5px;
 }
 
-
+#home-botton-2{
+  margin-top: 30px;
+}
 .carousel-dots {
   display: flex;
   justify-content: center;
