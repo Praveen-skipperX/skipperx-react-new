@@ -6,7 +6,7 @@
 }
 
 .signup-left-section,
-.signup-right-section {
+.signup-right-section1 {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -137,14 +137,14 @@
 
 
 
-.login-right-section {
+.login-right-section1 {
   background: #1C1C1C;
   max-width: 410px;
   width: 110%;
   border-radius: 10px;
   margin-right: 86px;
   margin-left: -52px;
-  margin-top: -40px;
+  margin-top: 100px;
 }
 
 .login-title{
@@ -173,7 +173,7 @@
 .login-email-input{
   width: 444px;
 }
-.login-form .login-input {
+.login-form1 .login-input {
   width: 414px;
   margin-bottom: 16px;
   border: 1px solid #444;
@@ -300,8 +300,40 @@ select:-webkit-autofill:focus {
     padding: 20px;
   }
 
-  .login-right-section {
+  .login-right-section1 {
     margin-right: 0;
     margin-top: 20px;
   }
+}
+
+
+
+@media (max-width: 480px) {
+   .signup-left-section{
+    display: none !important;
+   }
+   .login-form1{
+    padding-left: 10px;
+   }
+   .login-right-section1{
+    padding: 34px 20px !important;
+    margin-left: 10px !important;
+   }
+   .login-google-btn{
+    width: 320px !important;
+   }
+   .login-submit-btn{
+    width: 320px !important;
+   }
+   .login-form  {
+  width: 320px !important;
+   }
+   .login-input{
+    width: 320px !important;
+   }
+   #login-input-mail{
+    width: 320px !important;
+   }
+   
+
 }

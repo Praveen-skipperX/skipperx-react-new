@@ -256,3 +256,26 @@ select:-webkit-autofill:focus {
     margin-top: 20px;
   }
 }
+
+@media (max-width:480px) {
+  .otp-container{
+    padding-left: 70px !important;
+    margin-top: -49px;
+  }
+
+  .otp-title{
+    margin-left: 60px;
+  }
+  .otp-icon{
+    margin-left: 150px;
+  }
+  .otp-container h2{
+    padding-left: 30px;
+  }
+  .otp-inputs{
+    padding-left: 25px;
+  }
+  .resend{
+    margin-left: -15px !important;
+  }
+}

@@ -6,7 +6,7 @@ import harish from '../assets/harisha.jpg'
 import sai from '../assets/saisai.png'
 import hari from '../assets/harih.jpg'
 import sakshi from '../assets/saksh.png'
-import logo from '../assets/skipper-black-new.png';
+import logo from '../assets/skipper-black.png';
 
 const Email = () => {
   return (
@@ -48,18 +48,19 @@ const Email = () => {
 
         
           
-      <div className="login-right-section">
-        <form className="login-form">
+      <div className="login-right-section1">
+        <form className="login-form1">
           
           <img src={logo} alt="Skipper Logo" className="login-title"/>
           
-          <div className="login-input">
+          <div className="login-input" id="login-input-mail">
               <input type="email" placeholder="Email" className="login-email-input" required />
               
           </div>
           <div className="login-options">
             <a href="/login" className="navlink" >Use <span className="login-forgot" > Phone-number</span>instead</a>
           </div>
+          <button type="submit" className="login-submit-btn">Continue</button>
           <div className="login-divider"><span>or</span></div>
           <button type="button" className="login-google-btn">
             <img src={googleLogo} alt="Google" />

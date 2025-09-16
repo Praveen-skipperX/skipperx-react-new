@@ -241,6 +241,14 @@
   }
 }
 
+@media (max-width: 480px){
+  .navbar-learn{
+    display: flex;
+  }
+}
+
+
+
 /* 🔹 Dropdown */
 .dropdown {
   position: relative;
@@ -376,3 +384,5 @@
   background-color: #1e1d1d;
   
 }
+
+

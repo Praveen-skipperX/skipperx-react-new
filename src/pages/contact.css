@@ -216,4 +216,23 @@ select:-webkit-autofill:focus {
     margin-right: 0;
     margin-top: 20px;
   }
+
+
+}
+@media (max-width: 480px){
+  .contact-left-section{
+    display: none;
+  }
+  .contact-right-section {
+    margin-left: -27px;
+  }
+  .contact-1{
+    width: 360px;
+  }
+  .contact-title{
+    margin-left: 21px;
+  }
+  .contact-subtitle{
+    width: 340px;
+  }
 }

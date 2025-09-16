@@ -136,6 +136,7 @@ const Navbar = () => {
       <div className={`nav-buttons ${open ? 'show' : ''}`}>
         <Link to="/login" className="navlink"><button className="btn black">Login</button></Link>
         <Link to="/contact" className="navlink"><button className="btn white">Contact Us</button></Link>
+        
       </div>
 
       <button

@@ -290,12 +290,37 @@ select:-webkit-autofill:focus {
 
 @media (max-width: 768px) {
   .login-page-container {
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px;
   }
+  
 
   .login-right-section {
     margin-right: 0;
-    margin-top: 20px;
+    margin-top: 10px;
   }
+}
+
+
+@media (max-width: 480px) {
+   .login-left-section{
+    display: none !important;
+   }
+   .login-right-section{
+    padding: 34px 20px !important;
+    margin-left: -18px !important;
+   }
+   .login-google-btn{
+    width: 320px !important;
+   }
+   .login-submit-btn{
+    width: 320px !important;
+   }
+   .login-form .login-input {
+    width: 320px !important;}
+
+  .phone-inputs {
+    width: 320px !important;
+  }
+
 }
