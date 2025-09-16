@@ -229,6 +229,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Playfair Display;
+    font-style: italic;
 }
 .arvr2-drone-description {
   margin: 10px 0;

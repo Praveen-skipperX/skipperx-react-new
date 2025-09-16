@@ -226,8 +226,11 @@
 .arvr-drone-title .highlight {
   font-style: italic;
   color: #ff5c5c;
+  font-style: italic;
 }
-
+.arvr-highlight {
+  font-style: italic;
+}
 .arvr-drone-description {
   margin: 10px 0;
   font-size: 20px;
@@ -1205,7 +1208,7 @@
   border-radius: 8px;
   background: #D6D6D6;
   font-weight: 400;
-  color: #9A9A9A;
+  color: #000000;
   font-family: 'Poppins';
 }
 
