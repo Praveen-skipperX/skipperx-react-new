@@ -599,7 +599,7 @@ const DroneEngineering = () => {
               <div className={`drone-form-wrapper visible`}>
                 <div className="drone-form">
                   <div className="drone-pricing-card">
-                    <h3 className="drone-form-title">Master Drone Engineering Program</h3>
+                    <h3 className="drone-form-title">Master Drone Engineering</h3>
                     <GoogleSheetForm formName="DroneEngineering" />
                   </div>
                 </div>

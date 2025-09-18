@@ -28,15 +28,85 @@ import './Ar-Vr.css';
 
 
 const modules = [
-  { title: " Introduction to Unity and 3D Basics", content: "Learn the basics of flight using paper planes and aerodynamics." },
-  { title: "Unity Basics and C# Scripting", content: "Understand drone parts, types, and functionality." },
-  { title: "Physics, UI, and Effects", content: "Step-by-step drone assembly and flight tests." },
-  { title: "Lighting and Advanced Unity Features", content: "Overview of sensors used in drones." },
-  { title: "Introduction to Vuforia Engine", content: "Dive deep into orientation and altitude sensors." },
-  { title: "Advanced Vuforia Features", content: "Learn the software framework that controls drones." },
-  { title: " Introduction to WebXR and A-Frame", content: "Overview of sensors used in drones." },
-  { title: "Advanced WebXR and Capstone Project", content: "Build and fly your own drone in the final week." }
-];
+  { title: " Week 1: Introduction to Unity and 3D Basics", content: [
+      "1. Unity Game Engine Overview.",
+      "2. Introduction to Unity.",
+      "3. Unity interface: Tools, View, and Windows.",
+      "4. Overview of the 3D coordinate system.",
+      "5. GameObjects and Components.",
+      "6. Understanding GameObjects and their hierarchy.",
+      "7. Introduction to Components and their roles in Unity.",
+      "8. Transformations in 3D.",
+      "9. Translation, rotation, and scaling in Unity."
+    ]  },
+
+
+
+  { title: " Week 2: Unity Basics and C# Scripting", content: [
+      "1. C# Scripting in Unity.",
+      "2. Introduction to MonoBehaviour and Unity Callbacks.",
+      "3. Basics of C#: Variables, loops, conditions, and methods.",
+      "4. Math and Vector operations in Unity.",
+      "5. Randomization and Interactivity.",
+      "6. Generating random values for gameplay elements.",
+      "7. Creating simple interactivity using scripts."
+    ]  },
+
+
+
+  { title: "Week 3: Physics, UI, and Effects", content: [
+      "1. Physics in Unity.",
+      "2. Rigidbody and collision detection.",
+      "3. Using triggers and tags for interaction.",
+      "4. UI, Audio, and Particle Effects.",
+      "5. Creating a simple UI in Unity.",
+      "6. Adding and managing audio and video.",
+      "7. Particle effects for visual enhancements."
+    ]  },
+
+  { title: "Week 4: Lighting and Advanced Unity Features", content: [
+      "1. Lighting in Unity.",
+      "2. Basics of lighting and shadows.",
+      "3. Configuring different types of lights for mood and environment.",
+      "4. Advanced Unity Concepts.",
+      "5. Combining multiple features for a polished Unity project."
+    ]  },
+
+
+      { title: "Week 5: Introduction to Vuforia Engine", content: [
+      "1. Getting Started with Vuforia.",
+      "2. Setting up the Vuforia engine in Unity.",
+      "3. Creating and managing an image database.",
+      "4. AR Features in Vuforia.",
+      "5. Working with image targets and multi-targets.",
+      "6. Ground plane detection for placing objects on real-world surfaces."
+    ]  },
+
+      { title: "Week 6: Advanced Vuforia Features", content: [
+      "1. Mid-Air and Object Detection.",
+      "2. Creating mid-air AR experiences.",
+      "3. Setting up object detection for AR applications.",
+      "4. Device Tracking.",
+      "5. Introduction to device tracking for enhanced AR stability."
+    ]  },   
+    
+      { title: "Week 7: Introduction to WebXR and A-Frame", content: [
+      "1. Getting Started with WebXR.",
+      "2. Introduction to WebXR concepts and applications.",
+      "3. Tools and libraries for WebXR development.",
+      "4. A-Frame Basics.",
+      "5. Building a simple A-Frame AR and VR project."
+    ]  },  
+    
+      { title: "Week 8: Advanced WebXR and Capstone Project", content: [
+      "1. Advanced A-Frame.",
+      "2. A-Frame AR and VR customizations.",
+      "3. Integrating WebXR applications with other tools.",
+      "4. Capstone Project.",
+      "5. Creating an AR/VR application using learned concepts."
+    ]  }   
+
+  ];
 
 const ArVr = () => {
   const scrollItems = [
@@ -418,7 +488,11 @@ const ArVr = () => {
                   </div>
                   {activeIndex === index && (
                     <div className="arvr-module-details">
-                      <p>{module.content}</p>
+                      <ul>
+                        {module.content.map((point, i) => (
+                          <p key={i}>{point}</p>
+                        ))}
+                      </ul>
                     </div>
                   )}
                 </div>

@@ -23,16 +23,87 @@ import './RobotEngineering.css';
 import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
 
 
+
 const modules = [
-  { title: "Introduction to Robotics & Microcontroller Basics", content: "Learn the basics of flight using paper planes and aerodynamics." },
-  { title: "Microcontroller Mastery Continued & Electronics Fundamentals", content: "Understand drone parts, types, and functionality." },
-  { title: "Bluetooth Communication & Sensor Basics", content: "Step-by-step drone assembly and flight tests." },
-  { title: "Robot Assembly & Bluetooth Control", content: "Overview of sensors used in drones." },
-  { title: "Advanced Sensing and Data Interpretation", content: "Dive deep into orientation and altitude sensors." },
-  { title: "Obstacle Avoidance & Line Following Techniques", content: "Learn the software framework that controls drones." },
-  { title: "Mobile App Development for Robot Control", content: "Build and fly your own drone in the final week." },
-  { title: "Final Integration and Project Presentations", content: "Build and fly your own drone in the final week." }
-];
+  { title: " Week 1: Introduction to Robotics & Microcontroller Basics", content: [
+      "1. Robo Basics: What is Robotics?",
+      "2. Definition and history of robotics.",
+      "3. Types of robots and applications.",
+      "4. Basic components of a robot (sensors, actuators, controllers)",
+      "5. Microcontroller Mastery: Getting Started with Arduino.",
+      "6. Overview of the Arduino platform.",
+      "7. Arduino IDE setup and basic programming.",
+      "8. Introduction to Arduino Uno and its components."
+    ]  },
+
+
+
+  { title: " Week 2: Microcontroller Mastery Continued & Electronics Fundamentals", content: [
+      "1. Arduino Deep Dive.",
+      "2. Exploring different Arduino boards and shields.",
+      "3. Understanding digital vs. analog I/O.",
+      "4. Writing and uploading simple programs to Arduino.",
+      "5. Electronics Essentials: Basics of Circuitry.",
+      "6. Introduction to voltage, current, and resistance.",
+      "7. Overview of resistors, capacitors, LEDs, and motors.",
+      "8. Basic circuit design and using a breadboard for prototyping."
+    ]  },
+
+
+
+  { title: "Week 3: Bluetooth Communication & Sensor Basics", content: [
+      "1. Bluetooth Basics: Wireless Communication.",
+      "2. Introduction to Bluetooth technology and applications in robotics.",
+      "3. Working with Bluetooth modules (HC-05/HC-06).",
+      "4. Connecting Bluetooth module to Arduino and sending/receiving data.",
+      "5. Sensing the Environment: Basics of Sensors.",
+      "6. Types of sensors: ultrasonic, infrared, line sensors.",
+      "7. How sensors work and their importance in robotics."
+    ]  },
+
+  { title: "Week 4: Robot Assembly & Bluetooth Control", content: [
+      "1. Robot Control: Designing and Assembling a Basic Robot.",
+      "2. Introduction to robot chassis design and motor selection.",
+      "3. Assembling motors, wheels, and structure.",
+      "4. Integrating the Bluetooth module for wireless control."
+    ]  },
+
+
+      { title: "Week 5: Advanced Sensing and Data Interpretation", content: [
+      "1. Sensing the Environment: Advanced Sensor Integration.",
+      "2. Deep dive into ultrasonic, infrared, and line sensors.",
+      "3. Using multiple sensors for more complex behavior (sensor fusion).",
+      "4. Programming Arduino to interpret sensor data for real-time decision making."
+    ]  },
+
+      { title: "Week 6: Obstacle Avoidance & Line Following Techniques", content: [
+      "1. Navigating Obstacles: Using Sensors for Obstacle Avoidance.",
+      "2. Designing and implementing obstacle avoidance algorithms.",
+      "3. Utilizing ultrasonic sensors for obstacle detection and avoidance.",
+      "4. Following the Line: Building a Line-Following Robot.",
+      "5. Understanding IR sensors and their role in line following.",
+      "6. Designing a line-following algorithm.",
+      "7. Practical: Build and test a line-following robot."
+    ]  },   
+    
+      { title: "Week 7: Mobile App Development for Robot Control", content: [
+      "1. App Development with MIT App Inventor.",
+      "2. Overview of MIT App Inventor and setting up the environment.",
+      "3. Basic components of app design (buttons, labels, text inputs).",
+      "4. Implementing Bluetooth communication in the app."
+    ]  },  
+    
+      { title: "Week 8: Final Integration and Project Presentations", content: [
+      "1. Seamless Integration: Finalizing Robot and App Collaboration.",
+      "2. Integrating sensors, Bluetooth control, and mobile app seamlessly.",
+      "3. Troubleshooting common issues in robotics projects.",
+      "4. Final Project Presentation.",
+      "5. Showcase final projects.",
+      "6. Discuss potential improvements and future projects.",
+      "7. Overview of advanced topics (AI, machine learning, IoT) and how they relate to robotics."
+    ]  }   
+
+  ];
 
 const RobotEngineering = () => {
   const scrollItems = [
@@ -414,7 +485,11 @@ const RobotEngineering = () => {
                   </div>
                   {activeIndex === index && (
                     <div className="arvr-module-details">
-                      <p>{module.content}</p>
+                      <ul>
+                        {module.content.map((point, i) => (
+                          <p key={i}>{point}</p>
+                        ))}
+                      </ul>
                     </div>
                   )}
                 </div>
@@ -606,7 +681,7 @@ const RobotEngineering = () => {
               <div className={`drone-form-wrapper visible`}>
                 <div className="drone-form">
                   <div className="drone-pricing-card">
-                    <h3 className="drone-form-title">Master Robot Engineering Program</h3>
+                    <h3 className="drone-form-title">Master Robot Engineering </h3>
                     <GoogleSheetForm formName="RobotEngineering" />
                   </div>
                 </div>
