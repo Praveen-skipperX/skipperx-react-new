@@ -2,7 +2,7 @@
 .trust-wrapper {
   background: #1C1C1C;
   color: white;
-  padding: 128px 120px 64px 120px;
+  padding: 128px 80px 64px 80px;
   text-align: center;
 }
 
@@ -221,8 +221,8 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
     margin-bottom: 72px;
   }
   .company-logo {
-    width: 20px;   /* shrink width */
-    height: 10px;  /* shrink height proportionally */
+    width: 20px;  
+    height: 10px;  
     margin-top:  -15px;
     vertical-align:top;
     border:13px solid #ffffff;

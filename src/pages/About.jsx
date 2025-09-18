@@ -192,7 +192,7 @@ const About = () => {
         <div className="skipperx-gallery">
           <div className="skipperx-gallery-title">
             <hr className="gallery-line1a" />
-            <h2 className="gallery-heading">Here’s what SkipperX is all about</h2>
+            <h2 className="gallery-heading">Here’s what <span className="highlight-abouta"> SkipperX</span> is all about</h2>
             <hr className="gallery-line2a" />
           </div>
           <div className="skipperx-gallery-images">

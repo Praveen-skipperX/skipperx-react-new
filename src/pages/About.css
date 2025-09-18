@@ -270,6 +270,7 @@
   font-weight: 500;
   color: #ffffff;
   white-space: nowrap;
+  font-family: playfair display;
   
 }
 
@@ -537,6 +538,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
+  font-style: italic;
+  padding-right: 3px;
 }
 
 .subtitlea {
