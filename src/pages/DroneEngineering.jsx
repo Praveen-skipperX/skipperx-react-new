@@ -29,14 +29,86 @@ import dronepartsmobile from "../assets/drone-parts-mobile.png";
 
 
 const modules = [
-  { title: "Paper Planes and Aerodynamics", content: "Learn the basics of flight using paper planes and aerodynamics." },
-  { title: "Introduction to Drones", content: "Understand drone parts, types, and functionality." },
-  { title: "Building and Testing the Drone", content: "Step-by-step drone assembly and flight tests." },
-  { title: "Introduction to Sensors", content: "Overview of sensors used in drones." },
-  { title: "Magnetometer and Barometer", content: "Dive deep into orientation and altitude sensors." },
-  { title: "Understanding the Framework", content: "Learn the software framework that controls drones." },
-  { title: "Project Week", content: "Build and fly your own drone in the final week." }
-];
+  { title: " Week 1: Paper Planes and Aerodynamics", content: [
+      "1. Begin with Paper Planes",
+      "2. IconHistory and Evolution of Paper Planes.",
+      "3. Basic Principles of Flight",
+      "4. Basic components of a robot (sensors, actuators, controllers)",
+      "5. IconExplain How It Can Fly Better.",
+      "6. Importance of Weight Distribution.",
+      "7. Testing, Observation, and Iterative Improvements."
+    ]  },
+
+
+
+  { title: " Week 2: Introduction to Drones", content: [
+      "1. IconBasic Principles of Drone IconSafety Measures and Regulations for Drone .",
+      "2. Key Technological Advancements in Drone Development.",
+      "3. Transition to Commercial and Recreational Use.",
+      "4. Types of Drones.",
+      "5. Applications and Future Applications of Drones.",
+      "6. Forces and Controls in Drones.",
+      "7. Generation of Lift by Drone Rotors.",
+      "8. BPitch and Roll: Control of Directional Movement."
+    ]  },
+
+
+
+  { title: "Week 3: Bluetooth Communication & Sensor Basics", content: [
+      "1. Building the Drone - Pluto.",
+      "2. Assembly of Motors, Propellers, and Frame.",
+      "3. Connecting Flight Controller, Battery, and Receiver, IconSoftware Installation, Calibration, and Firmware Updates.",
+      "4. Pre-Flight Checklist and Calibration.",
+      "5. Basic Flight Maneuvers: Takeoff, Hovering, and Landing.",
+      "6. Components and Functions of the Flight Control System.",
+      "7. Communication System: Remote Controller, Receiver, and Telemetry."
+    ]  },
+
+  { title: "Week 4: Introduction to Sensors", content: [
+      "1. Importance of Sensors for Stability and Control.",
+      "2. Obstacle Detection and Avoidance Using Various Sensors.",
+      "3. Understanding Working Principles of Sensors.",
+      "4. Accelerometer and Gyro Sensor.",
+      "5. Understanding the Gyro Sensor."
+    ]  },
+
+
+      { title: "Week 5: Magnetometer and Barometer", content: [
+      "1. Definition and Purpose of Understanding the Working of Magnetometer.",
+      "2. Working and Its Applications.",
+      "3. Practical Experiments.",
+      "4. Compass Drone Experiment."
+    ]  },
+
+      { title: "Week 6: Working with Propellers", content: [
+      "1. Understanding the Basics of Propellers.",
+      "2. Configuration of Propellers on Drones.",
+      "3. Configuration of Propellers on Drones.",
+      "4. Batteries.",
+      "5. Types and Importance of Batteries in Drones.",
+      "6. Homopolar Motor Experiment.",
+      "7. Types and Importance of Batteries in Drones."
+    ]  },   
+    
+      { title: "Week 7: Understanding the Framework", content: [
+      "1. Framework Using Block Diagram.",
+      "2. Understanding Framework Using Block Diagram.",
+      "3. Understanding Block Programming.",
+      "4. Applications of Block Programming.",
+      "5. Beginner’s Level Projects on Pluto Blocks."
+    ]  },  
+    
+      { title: "Week 8: Project Week", content: [
+      "1. Measuring Height and Color Wheel Applications.",
+      "2. Program the Drone to Display the Current Altitude.",
+      "3. Transform Your Pluto Drone into a Color Wheel to Visually Blend Primary Colors into Secondary Colors.",
+      "4. Replace the Spinning Bottle with a Spinning Drone Programmed to Randomly Turn to Different Yaw Angles.",
+      "5. Use the Drone's Sensors and LEDs to Create a Customizable Spirit Level.",
+      "6. Alarm Drone with Pluto Blocks.",
+      "7. Program Your Pluto Drone with Pluto Blocks as an Alarm Using the Pluto Controller App."
+    ]  }   
+
+  ];
 
 const DroneEngineering = () => {
   const scrollItems = [
@@ -416,7 +488,11 @@ const DroneEngineering = () => {
                   </div>
                   {activeIndex === index && (
                     <div className="arvr-module-details">
-                      <p>{module.content}</p>
+                      <ul>
+                        {module.content.map((point, i) => (
+                          <p key={i}>{point}</p>
+                        ))}
+                      </ul>
                     </div>
                   )}
                 </div>
