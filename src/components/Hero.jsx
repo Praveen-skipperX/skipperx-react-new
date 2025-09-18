@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import bgImage from '../assets/hero-landing-hd.png';
-import { Link } from 'react-router-dom';
+
 
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
       <img src={bgImage} alt="background" className="hero-img" />
       <div className="overlayp">
         <h1>
-          Your dream skill is, not days, not hours but <Link to="/dashboard" className="navlink"><span className="highlight-red">minutes </span></Link> away
+          Your dream skill is, not days, not hours but <span className="highlight-red">minutes </span> away
         </h1>
         <p>Built for Innovators, Entrepreneur & Hustlers</p>
         <button className="btn red" onClick={() => {

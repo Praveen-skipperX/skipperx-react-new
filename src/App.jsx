@@ -22,7 +22,7 @@ import Otp from './pages/otp';
 import Cooking from './pages/cooking';
 //import Forget from './pages/forget';
 
-import Dashboard from './components/Dashboard';
+import Dashboard from './components/dashboard/Dashboard';
 import ScrollToTop from './components/ScrollToTop';
 
 

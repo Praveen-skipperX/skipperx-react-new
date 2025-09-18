@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
-import promoImage from "../assets/dashboard-promo.png"; 
-import logo from '../assets/skipper-black.png';
+import promoImage from "../../assets/dashboard-promo.png"; 
+import logo from '../../assets/skipper-black.png';
 
 
 function Dashboard() {
