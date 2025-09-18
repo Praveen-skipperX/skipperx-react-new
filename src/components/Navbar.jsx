@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="card-text">
           
           <h4>Drone Engineering</h4>
-          <span>2 Months</span>
+          <span>3 Months</span>
           
         </div>
         </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
         <img src={robotImg} alt="Robot Engineering" />
         <div className="card-text">
           <h4>Robot Engineering</h4>
-          <span>2 Months</span>
+          <span>3 Months</span>
         </div>
         </Link>
       </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
         <img src={arvrImg} alt="AR VR" />
         <div className="card-text">
           <h4>AR VR</h4>
-          <span>2 Months</span>
+          <span>3 Months</span>
         </div>
         </Link>
       </div>
