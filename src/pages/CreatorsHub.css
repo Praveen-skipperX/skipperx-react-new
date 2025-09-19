@@ -8,7 +8,7 @@
   align-items: center;
 }
 .highlightstack {
-  background: linear-gradient(to right, #ff7b6a, #ff4101);
+  background: linear-gradient(to right, #FE8324, #ff4101);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Playfair Display;
@@ -567,7 +567,12 @@
 }
 
 .startup-brochure-overlay h3 span {
-  color: #FB614B;
+  background: linear-gradient(to right, #FE8324, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Playfair Display;
+  font-style: italic;
+  padding-right: 3px;
 }
 
 .startup-brochure-overlay p {
@@ -682,8 +687,12 @@
 }
 
 .startup-walk-away h2 span {
-  color: #FB614B;
+  background: linear-gradient(to right, #FE8324, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Playfair Display;
   font-style: italic;
+  padding-right: 3px;
 }
 
 .startup-walk-away-cards {
@@ -1035,9 +1044,12 @@
 }
 
 .startup-info-heading span {
-  color: #ff4b4b;
-  font-style: italic;
+  background: linear-gradient(to right, #FE8324, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: Playfair Display;
+  font-style: italic;
+  padding-right: 3px;
 
 }
 
@@ -1494,8 +1506,12 @@
 }
 
 .startup-mentors-section h2 span {
-  color: #ff5722; 
+  background: linear-gradient(to right, #FE8324, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Playfair Display;
   font-style: italic;
+  padding-right: 3px;
 }
 
 .startup-mentors-grid {

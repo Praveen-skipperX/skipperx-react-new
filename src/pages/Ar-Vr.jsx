@@ -261,7 +261,7 @@ const ArVr = () => {
           </div>
           
           <div className="arvr-arvr-title1">
-            <h1 className="arvr--title">Create <span className="arvr-highlight">AR/VR experiences </span>  that redefine reality and set new standards.</h1>
+            <h1 className="arvr--title">Create <span className="arvr-highlight">AR/VR  experiences </span>  that redefine reality and set new standards.</h1>
           </div>
           
 

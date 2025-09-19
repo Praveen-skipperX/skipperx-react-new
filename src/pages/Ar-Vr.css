@@ -832,6 +832,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Playfair Display;
+  padding-right: 3px;
+  
 }
 
 .arvr-drone-testimonial-box {
@@ -923,6 +925,7 @@
     text-align: center;
     padding: 0 16px;
     margin-top: -15px;
+    
   }
   .arvr-drone-testimonial-person{
     width: 240px;
@@ -2758,7 +2761,10 @@
 }
 
 .arvr-dronehighlight{
-  color: #FB614B;
+    background: linear-gradient(to right, #FE8324, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Playfair Display;
   font-style:italic;
   padding-right: 5px;
 

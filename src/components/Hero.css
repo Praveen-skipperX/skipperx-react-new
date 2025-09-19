@@ -79,7 +79,15 @@ body, html {
   border-radius: 8px;
   cursor: pointer;
 }
-
+@media (min-width: 1440px) {
+  .hero-img-wrapper {
+    height: 800px;
+  }
+  .overlayp h1 {
+    font-size: 46px;
+    padding-top: 400px;
+  }
+}
 @media (max-width: 1024px) {
   .hero-img-wrapper {
     height: 550px;
