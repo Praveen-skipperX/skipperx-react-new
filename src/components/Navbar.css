@@ -1,28 +1,80 @@
-/* Mobile view */
+/* 🔹 Mobile Screens */
 @media (max-width: 768px) {
-  .nav-linkss {
-    display: none; /* hide About, etc. until hamburger opens */
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 8px 16px;
   }
 
-  .learn-nav {
-    display: flex; /* Learn always visible */
+  .logo-img {
+    height: 35px;
+    width: auto;
+  }
+
+  .left-section {
+    flex-direction: row;   /* keep logo + hamburger aligned */
     align-items: center;
+    gap: 10px;
+  }
+
+  /* Hamburger */
+  .hamburger {
+    display: flex;
+    margin-left: auto;  /* pushes to right */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    background: none;
+    border: none;
     cursor: pointer;
-    margin-left: 16px;
+    z-index: 20;
   }
 
-  .navbar-learn {
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    margin-right: 4px;
+  /* Nav links & buttons (hidden until opened) */
+  .nav-linkss,
+  .nav-buttons {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background: #0e0d0d;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 10;
   }
 
-  .arrow {
-    font-size: 14px;
-    color: white;
+  .nav-linkss.show,
+  .nav-buttons.show {
+    display: flex;
+  }
+
+  /* Dropdown / Mega menu */
+  .mega-dropdown {
+    position: static;        /* no absolute, so it flows under nav */
+    display: none;
+    grid-template-columns: 1fr;  /* single column on mobile */
+    gap: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: #000;
+    border-radius: 10px;
+  }
+
+  .mega-dropdown.show {
+    display: block;
+  }
+
+  .mega-card img {
+    width: 60px;
+    height: 40px;
   }
 }
+
+
 
 
 .navbar {
