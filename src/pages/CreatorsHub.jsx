@@ -428,7 +428,7 @@ const CreatorsHub = () => {
               <div className={`startup-form-wrapper visible`}>
                 <div className="startup-form">
                   <div className="startup-pricing-card">
-                    <h3 className="startup-form-title">Master Creators Hub</h3>
+                    <h3 className="startup-form-title">Master Creators Hub Program</h3>
                     <GoogleSheetForm formName="CreatorsHub" />
                   </div>
                 </div>

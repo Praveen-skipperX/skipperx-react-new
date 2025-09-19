@@ -64,7 +64,7 @@ const Footer = () => {
             <ul>
               <li><Link to="/about">About Us</Link></li>
               <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><Link to="/contact">Contact Us</Link></li>
               <li><a href="#">Apply as Mentor</a></li>
               <li><a href="/blog">Blog</a></li>
             </ul>
@@ -73,8 +73,8 @@ const Footer = () => {
           <div className="footer-column" id="b">
             <h4>Programs</h4>
             <ul>
-              <li><a href="#">For Innovators</a></li>
-              <li><a href="#">For Doers</a></li>
+              <li ><a href="#launch-navigate">For Innovators</a></li>
+              <li><a href="#stack-navigate">For Doers</a></li>
               <li><a href="#">For Enterpreneurs</a></li>
             </ul>
           </div>

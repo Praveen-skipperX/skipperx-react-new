@@ -420,7 +420,7 @@ const TechCore = () => {
               <div className={`drone-form-wrapper visible`}>
                 <div className="drone-form">
                   <div className="drone-pricing-card">
-                    <h3 className="drone-form-title">Master Tech core</h3>
+                    <h3 className="drone-form-title">Master Tech core Program</h3>
                     <GoogleSheetForm formName="Master tech core" />
                   </div>
                 </div>

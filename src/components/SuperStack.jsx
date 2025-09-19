@@ -32,7 +32,7 @@ const stackData = [
 
 const SuperStack = () => {
   return (
-    <section className="stack-wrapper">
+    <section className="stack-wrapper" id="stack-navigate">
       <div className="best-heading-section">
         <hr className="l" />
         <h1>

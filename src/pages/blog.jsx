@@ -35,7 +35,7 @@ const Blog = () => {
     {
       id: 4,
       date: "24 August 2025",
-      tag: "Techlkjhgfdfghj",
+      tag: "Tech",
       title: "Why AI is trending and what will be the future.",
     },
   ];
@@ -47,8 +47,8 @@ const Blog = () => {
         
         <section className="blog-hero">
             <h1 className="hero-title">
-            <span className="highlight">Insights, stories,</span> and{" "}
-            <span className="highlight">tools </span> to fuel your learning journey
+            <span className="blog-highlight">Insights, stories,</span> and{" "}
+            <span className="blog-highlight">tools </span> to fuel your learning journey
             </h1>
             <p className="blog-hero-subtitle">Only on the SkipperX Blog</p>
         </section>

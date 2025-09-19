@@ -23,9 +23,13 @@
   font-family: playfair display;
 }
 
-.hero-title .highlight {
-  color: #ff4d00;
+.hero-title .blog-highlight {
+  background: linear-gradient(to right, #ff7b6a, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
   font-style: italic;
+  padding-right: 3px;
 }
 
 .blog-hero-subtitle {
@@ -35,6 +39,14 @@
   color: #BDC5D1;
 }
 
+@media (max-width: 480px) {
+  .hero-title{
+    font-size: 32px !important;
+  }
+  .blog-hero-subtitle{
+    font-size: 14px;
+  }
+}
 
 
 
@@ -85,6 +97,14 @@
 /* ================= Responsive ================= */
 
 /* Tablet */
+
+
+
+@media (max-width: 480px) {
+  .trending-section{
+    display: none;
+  }
+} 
 @media (max-width: 1024px) {
   .blog-page {
     padding: 0 60px;
