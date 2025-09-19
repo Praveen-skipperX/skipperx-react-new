@@ -20,7 +20,7 @@
   margin-bottom: 52px;
 }
 .highlight-text {
-  color: #ff4101;
+  background: linear-gradient(to right, #FE8324, #ff4101);
   font-style: italic;
 }
 

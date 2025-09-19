@@ -12,7 +12,7 @@ const Hero = () => {
         <h1>
           Your dream skill is, not days, not hours but <span className="highlight-red">minutes </span> away
         </h1>
-        <p>Built for Innovators, Entrepreneur & Hustlers</p>
+        <p>Built for Innovators, Entrepreneurs & Hustlers</p>
         <button className="btn red" onClick={() => {
                 document
                   .getElementById('launch-navigate')

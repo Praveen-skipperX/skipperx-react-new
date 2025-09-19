@@ -1,3 +1,28 @@
+/* Mobile view */
+@media (max-width: 768px) {
+  .nav-linkss {
+    display: none; /* hide About, etc. until hamburger opens */
+  }
+
+  .learn-nav {
+    display: flex; /* Learn always visible */
+    align-items: center;
+    cursor: pointer;
+    margin-left: 16px;
+  }
+
+  .navbar-learn {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-right: 4px;
+  }
+
+  .arrow {
+    font-size: 14px;
+    color: white;
+  }
+}
 
 
 .navbar {

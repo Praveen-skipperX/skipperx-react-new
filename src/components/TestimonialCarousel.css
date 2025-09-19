@@ -17,7 +17,7 @@
 }
 
 .highlight {
-    background: linear-gradient(to right, #ff7b6a, #ff4101);
+    background: linear-gradient(to right, #FE8324, #ff4101);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
@@ -32,7 +32,7 @@
   margin-top: 12px;  
   border: 1px solid #000;
   border-radius: 8px;
-  background:linear-gradient(to bottom right, #FE8324 10% ,#FF4101 100%);
+  background:linear-gradient(to bottom right, #FE8324 20% ,#FF4101 100%);
   font-weight: 500;
   font-size: 16px;
   width: 232px;
