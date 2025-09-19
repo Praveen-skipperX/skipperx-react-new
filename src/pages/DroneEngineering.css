@@ -528,3 +528,61 @@
   }
   
 }
+
+
+
+
+
+
+
+
+.arvr-stat-card1 {
+  background: linear-gradient(to top, #181320,#231C30);
+  padding: 26px 10px;
+  border-radius: 15px;
+  text-align: left;
+  width: 167px;
+  height: 155px;
+  color: white;
+}
+
+.arvr-stat-card1 h4 {
+  font-size: 32px;
+  margin-bottom: 4px;
+  font-family: Playfair Display;
+  font: bold;
+}
+
+.arvr-stat-card1 p {
+  color: #ccc;
+  font-size: 16px;
+  font-style: poppins;
+  margin-bottom: -10px;
+}
+
+
+.arvr-state-icon span {
+  font-size: 20px;
+  color: #fb4b4b;
+  margin-bottom: 10px;
+  background-color: #000;
+  border-radius: 30px;
+  margin-top: -20px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 480px){
+  .arvr-stat-card1 {
+      padding: 19px 10px 26px;
+      max-width: 106px;
+      height: 121px;
+      color: white;
+    }
+    .arvr-stat-card1 h4{
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .arvr-stat-card1 p{
+      font-size: 10px;
+    }
+  }

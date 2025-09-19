@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 import logo from '../assets/skipper-black.png';
+import { HashLink } from 'react-router-hash-link';
+
 <img src={logo} alt="Skipper Logo" className="footer-logo" />
 
 const Footer = () => { 

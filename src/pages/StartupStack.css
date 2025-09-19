@@ -367,6 +367,7 @@
     width: 100%;
     max-width: 320px;
     padding:10px 10px ;
+    background: linear-gradient(to top, #181320,#231C30);
   }
   .startup-stat-card img{
     display: contents;

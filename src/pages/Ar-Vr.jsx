@@ -884,12 +884,12 @@ const ArVr = () => {
             <h2>Frequently Asked Question</h2>
             <hr className="arvr-faq-rightt"/>
           </div>
-          <p className="arvr-faq-subtext">Insights from those who’ve walked the path you're about to take.</p>
+          {/*<p className="arvr-faq-subtext">Insights from those who’ve walked the path you're about to take.</p>*/}
           
           <div className="arvr-faq-list">
             {[
               {
-                question: "Is technical support available if I encounter issues with the online platform?",
+                question: "Is technical support available if I have issues with the online platform?",
                 answer: "Our dedicated support team is just a call or an email away. Reach out to us at 8792243559 / 8147081557 or support@Skipperx.in from Monday to Saturday, 11 AM to 8 PM, for any assistance you need!"
               },
               {

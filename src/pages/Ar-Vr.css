@@ -518,6 +518,7 @@
     /*background: linear-gradient(to top , #150f0c 35% , #0d0907 67% );*/
     max-width: 320px;
     padding:10px 10px ;
+    background: linear-gradient(to top, #181320,#231C30);
   }
   .arvr1-stat-card img{
     display: contents;
@@ -598,16 +599,6 @@
   color: white;
 }
 
-.arvr-state-icon span {
-  font-size: 20px;
-  color: #fb4b4b;
-  margin-bottom: 10px;
-  background-color: #000;
-  border-radius: 30px;
-  margin-top: -20px;
-  display: inline-block;
-}
-
 .arvr-stat-card h4 {
   font-size: 32px;
   margin-bottom: 4px;
@@ -622,6 +613,33 @@
   margin-bottom: -10px;
 }
 
+
+.arvr-state-icon span {
+  font-size: 20px;
+  color: #fb4b4b;
+  margin-bottom: 10px;
+  background-color: #000;
+  border-radius: 30px;
+  margin-top: -20px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 480px){
+  .arvr-stat-card {
+      padding: 19px 10px 26px;
+      max-width: 106px;
+      height: 121px;
+      color: white;
+    }
+    .arvr-stat-card h4{
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .arvr-stat-card p{
+      font-size: 10px;
+    }
+
+}
 
 .arvr-info-heading {
   font-size: 28px;
@@ -664,21 +682,9 @@
    .arvr-info-stats {
      display: flex;
      gap: 8px;
-     padding: 36px 5px 66px;
+     padding: 36px 5px 66px 12px;
    }
-   .arvr-stat-card {
-      padding: 19px 10px 26px;
-      max-width: 106px;
-      height: 121px;
-      color: white;
-    }
-    .arvr-stat-card h4{
-      font-size: 18px;
-      margin-top: 10px;
-    }
-    .arvr-stat-card p{
-      font-size: 10px;
-    }
+   
 
 
     .arvr-info-heading{
@@ -2714,6 +2720,7 @@
   justify-content: center;
   font-family: Playfair Display;
   gap: 15px;
+  margin-bottom: 35px;
 }
 
 .arvr-faq-header h2 {
@@ -2824,6 +2831,7 @@
 @media screen and (max-width: 768px) {
   .arvr-faq-header h2{
     font-size: 22px;
+    
   }
   .arvr-faq-subtext{
     font-size: 15px;
@@ -2831,7 +2839,9 @@
   .arvr-faq-section {
     padding: 40px 20px;
   }
-
+  .arvr-faq-header{
+    margin-bottom: 10px;
+  }
   .arvr-faq-title {
     font-size: 22px;
   }

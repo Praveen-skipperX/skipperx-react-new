@@ -35,7 +35,7 @@ const TrustSection = () => {
 
       <div className="trust-box">
         <h2>
-          Trusted by <span className="highlight">12,000+</span> Builders, Doers & Innovators
+          Trusted by <span className="highlight-tb">12,000+</span> Builders, Doers & Innovators
         </h2>
         <p><span className="tp">Who choose Skipperx to upskill, pivot, and lead in the modern workplace.</span></p>
 

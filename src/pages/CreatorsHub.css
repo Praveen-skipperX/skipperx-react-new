@@ -775,6 +775,7 @@
   justify-content: center;
   font-family: Playfair Display;
   gap: 15px;
+  margin-bottom: 36px;
 }
 
 .startup-faq-header h2 {
@@ -886,6 +887,9 @@
 @media screen and (max-width: 768px) {
   .startup-faq-header h2{
     font-size: 22px;
+  }
+  .startup-faq-header{
+    margin-bottom: 10px;
   }
   .startup-faq-subtext{
     font-size: 15px;

@@ -533,7 +533,7 @@ const CreatorsHub = () => {
                   <h2>Frequently Asked Question</h2>
                   <hr className="startup-faq-rightt"/>
                 </div>
-                <p className="startup-faq-subtext">Insights from those who’ve walked the path you're about to take.</p>
+               
                 
                 <div className="startup-faq-list">
                   {[

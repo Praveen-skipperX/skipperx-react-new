@@ -78,7 +78,7 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
   font-family: Playfair Display;
 }
 
-.trust-box .highlight {
+.trust-box .highlight-tb {
   background: linear-gradient(to right, #ff7b6a, #ff4101);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -228,11 +228,12 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
     border:13px solid #ffffff;
     border-radius: 8px;
   }
+  
   .trust-box h2{
     font-size: 21px;
   }
-  .trust-box .highlight{
-    font-size: 20px;
+  .trust-box .highlight-tb{
+    font-size: 21px;
   }
   .trust-box span{
     font-size: 16px;
@@ -246,11 +247,12 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
     
   }
   .strongtrust{
-    font-size: 20px;
+    font-size: 17px;
   }
   .im0{
     width: 20px;
     height: 20px;
+    margin-bottom: -3px;
   }
   
   .trust-stats > div {
@@ -285,6 +287,9 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
     height: auto;
     border-radius: 8px 8px 0 0;
   }
+  .person-card p {
+    font-size: 13px;
+  }
 
   .person-name {
     display: block;
@@ -299,7 +304,7 @@ background: linear-gradient(to right, #ff7b6a, #ff4101);
 /* Mobile row-wise (vertical scroll) */
 @media (max-width: 480px) {
   .scroll-track {
-    animation: scroll-left 90s linear infinite;
+    animation: scroll-left 170s linear infinite;
   }
 
   
