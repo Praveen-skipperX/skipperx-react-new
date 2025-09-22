@@ -208,7 +208,7 @@ const About = () => {
             <div className="gallery-image-container">
               <img src={img2} alt="Training Session" />
             </div>
-             <div className="gallery-image-container1">
+            {/*} <div className="gallery-image-container1">
               <img src={img3} alt="Team Collaboration" className="third"/>
             </div>
             <div className="gallery-image-container1">
@@ -216,7 +216,7 @@ const About = () => {
             </div>
             <div className="gallery-image-container1">
               <img src={img5} alt="Celebration Event" className="fifth" />
-            </div>
+            </div>*/}
             
           </div>
         </div>

@@ -3,7 +3,7 @@
 .about-hero-section {
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 680px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,13 +98,13 @@
 
 @media screen and (max-width: 480px) {
   .about-hero-section {
-    height: 610px;
+    height: 720px;
     
     background-position: left 23% center; 
   }
   .about-hero-title {
     font-size: 32px;
-    margin-top: 60px;
+    margin-top: 160px;
   }
   .about-hero-subtitle {
     font-size: 14px;
@@ -306,7 +306,7 @@
   }
 
   .gallery-heading {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .gallery-image-container {
@@ -692,10 +692,10 @@
     
   }
   .people-headera h2{
-    font-size: 22px;
+    font-size: 24px;
   }
   .subtitlea {
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 10px;
   }
   .people-carda {
