@@ -98,16 +98,17 @@
 
 @media screen and (max-width: 480px) {
   .about-hero-section {
-    height: 480px;
+    height: 610px;
     
     background-position: left 23% center; 
   }
   .about-hero-title {
-    font-size: 22px;
-    margin-top: 30px;
+    font-size: 32px;
+    margin-top: 60px;
   }
   .about-hero-subtitle {
-    font-size: 13px;
+    font-size: 14px;
+    margin-top: 10px;
   }
   .about-hero-btn{
     display: none;
