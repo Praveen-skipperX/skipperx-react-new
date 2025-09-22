@@ -132,13 +132,13 @@ body, html {
 
 @media (max-width: 480px) {
   .hero-img-wrapper {
-    height: 680px;
+    height: 720px;
     margin-top: -10px;
-    opacity: -1px;
+    
   }
   .overlayp h1 {
     font-size: 32px;
-    padding-top: 290px;
+    padding-top: 360px;
   }
   .overlayp p {
     font-size: 14px;
