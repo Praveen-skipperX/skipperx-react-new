@@ -132,7 +132,7 @@ body, html {
 
 @media (max-width: 480px) {
   .hero-img-wrapper {
-    height: 580px;
+    height: 620px;
     margin-top: -10px;
   }
   .overlayp h1 {
