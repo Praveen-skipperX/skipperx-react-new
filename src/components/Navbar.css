@@ -1,14 +1,45 @@
+@media (max-width: 390px){
+
+  .nav-item.dropdown {
+   margin-left: 90px !important;
+   border:1px solid #ddd8d8 ;
+   border-radius: 8px;
+   padding: 3px 10px;
+  }
+
+}
+@media (max-width: 480px){
+
+  .nav-item.dropdown {
+   margin-left: 110px;
+   border:1px solid #ddd8d8 ;
+   border-radius: 8px;
+   padding: 3px 10px;
+  }
+   .mega-dropdown {
+    position: absolute;
+    top: 70px;
+    left: -20% !important;
+    right: auto;
+    width: 90%; /* adjust width on mobile */
+    grid-template-columns: 1fr; /* single column on mobile */
+  }
+
+}
 
 
-
-
-/* 🔹 Mobile Screens */
+/* Mobile Screens (max-width: 768px) */
 @media (max-width: 768px) {
-  /* Navbar */
   .navbar {
     flex-wrap: wrap;
     gap: 10px;
     padding: 8px 16px;
+  }
+
+  .left-section {
+    flex-direction: row !important; /* logo + Learn + hamburger in one line */
+    align-items: center;
+    gap: 10px;
   }
 
   .logo-img {
@@ -16,16 +47,54 @@
     width: auto;
   }
 
-  .left-section {
-    flex-direction: row;   /* keep logo + hamburger aligned */
+  /* Learn always visible */
+  .nav-item.dropdown {
+    display: flex;
     align-items: center;
-    gap: 10px;
+    color: white;
+    border:1px solid #ddd8d8 ;
+   border-radius: 8px;
+   padding: 3px 10px;
+    cursor: pointer;
+    z-index: 20;
+    
+  }
+
+  .navbar-learn {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: right;
+  }
+
+  .arrow {
+    margin-left: 4px;
+    font-size: 12px;
+  }
+
+  /* Mega dropdown positioning */
+  .mega-dropdown {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: auto;
+    display: none;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 50;
+    width: 90%; /* adjust width on mobile */
+    grid-template-columns: 1fr; /* single column on mobile */
+  }
+
+  .mega-dropdown.show {
+    display: block;
   }
 
   /* Hamburger */
   .hamburger {
     display: flex;
-    margin-left: auto;  /* pushes to right */
+    margin-left: auto;
     flex-direction: column;
     justify-content: space-between;
     width: 25px;
@@ -36,7 +105,6 @@
     z-index: 20;
   }
 
-  /* Nav links & buttons (hidden until opened) */
   .nav-linkss,
   .nav-buttons {
     display: none;
@@ -54,27 +122,6 @@
   .nav-linkss.show,
   .nav-buttons.show {
     display: flex;
-  }
-
-  /* Dropdown / Mega menu */
-  .mega-dropdown {
-    position: static;        /* no absolute, so it flows under nav */
-    display: none;
-    grid-template-columns: 1fr;  /* single column on mobile */
-    gap: 20px;
-    padding: 20px;
-    height: auto;
-    background-color: #000;
-    border-radius: 10px;
-  }
-
-  .mega-dropdown.show {
-    display: block;
-  }
-
-  .mega-card img {
-    width: 60px;
-    height: 40px;
   }
 }
 
