@@ -16,7 +16,7 @@
   font-size: 2rem;
 }
 
-.highlight {
+.highlight-test {
     background: linear-gradient(to right, #FE8324, #ff4101);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -213,17 +213,23 @@
   }
 
   .carousel-container h2 {
-    font-size: 18px;
-    line-height: 1;
-    width: 370px;
+    font-size: 20px;
+    max-width: 360px;
+    text-align: center;
   }
-  .highlight{
-    font-size: 18px;
-    line-height: 1;
+  .highlight-test{
+    font-size: 20px;
+    margin-left: -3px;
+  }
+  .lefttt {
+    display: none;
+  }
+  .righttt{
+    display: none;
   }
 
   .subtitlee {
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 20px;
   }
 

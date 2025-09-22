@@ -676,21 +676,27 @@
   line-height: 1.5;
 }
 
-
+@media screen and (max-width: 390px){
+  .arvr-info-stats {
+     display: flex;
+     gap: 7px;
+     padding: 36px 5px 66px 8px !important;
+   }
+}
 @media screen and (max-width: 480px){
   .arvr-head-ing {
     display: none;
   }
    .arvr-info-stats {
      display: flex;
-     gap: 8px;
-     padding: 36px 5px 66px 17px;
+     gap: 7px;
+     padding: 36px 5px 66px 13px;
    }
    
 
 
     .arvr-info-heading{
-      font-size: 22px;
+      font-size: 24px;
       text-align: center;
     }
     .arvr-info-para {
@@ -921,7 +927,7 @@
 
 @media (max-width: 480px) {
   .arvr-robot-heading{
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
     padding: 0 16px;
     margin-top: -15px;
@@ -1420,7 +1426,7 @@
     font-size: 24px;
   }
   .arvr-module-heading-wrapper h2 {
-    font-size: 22px;
+    font-size: 24px;
     
   }
   .arvr-module-heading-wrapper{
@@ -2149,12 +2155,12 @@
 
 @media (max-width: 768px) {
   .arvr-certificate-title {
-    font-size: 20px;
-    width: 290px;
+    font-size: 24px !important;
+    width: 360px !important;
   }
 
   .arvr-certificate-subtext {
-    font-size: 14px;
+    font-size: 13px !important;
     margin-top: -5px;
   }
   .arvr-cert-drone {
@@ -2345,11 +2351,11 @@
 @media (max-width: 480px) {
   
   .arvr-brochure-overlay h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .arvr-brochure-overlay p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .arvr-download-brochure-btn {
@@ -2841,11 +2847,11 @@
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .arvr-faq-header h2{
-    font-size: 22px;
+    font-size: 24px;
     
   }
   .arvr-faq-subtext{
-    font-size: 15px;
+    font-size: 13px;
   }
   .arvr-faq-section {
     padding: 40px 20px;

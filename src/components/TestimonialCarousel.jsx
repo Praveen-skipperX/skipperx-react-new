@@ -74,9 +74,9 @@ const TestimonialCarousel = () => {
   return (
     <section className="carousel-container">
       <h2>
-        <span className="lefttt" /> Approved by the Ones Who Built the{" "}
-        <span className="highlight">Best</span>{" "}
-        <span className="righttt" />
+        <div className="lefttt" /> Approved by the Ones Who Built <span className="highlight-test">Best</span>
+        
+        <div className="righttt" />
       </h2>
       <p className="subtitlee">Not Just Students – Leaders Learn from Us Too</p>
 

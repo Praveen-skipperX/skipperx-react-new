@@ -319,29 +319,33 @@
     background: none;
     text-align: center;
     margin-top: -60px;
+    margin-left: -10px;
   }
 
   .launch-left h2 {
-    font-size: 19px;
+    font-size: 24px;
     margin-left: -13px;
   }
   .highlight99{
-    font-size: 18px;
+    font-size: 24px;
+    
   }
   .highlight9{
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .launch-left h3 {
-    font-size: 15px;
+    font-size: 17px;
     margin-left: -8px;
+    line-height: 110%;
   }
 
   .coming-soon{
     font-size: 12px;
   }
   .right-card p{
-    font-size: 12px;
+    font-size: 13px;
+    
   }
 .coming-soon::after {
   content: '';
@@ -375,7 +379,7 @@
     display: flex;
     padding-bottom: 129px;
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 13px;
   }
   
 

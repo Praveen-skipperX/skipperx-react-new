@@ -8,7 +8,7 @@ const TermsAndConditions = () => {
     <>
       <Navbar />
       <div className="terms-container">
-        <h1>Skipperx Empowering Tomorrow Leaders – Terms And Conditions</h1>
+        <h1> Terms And Conditions</h1>
         <p className="intro">
           Welcome To SkipperX! These Terms And Conditions Outline The Rules And Regulations For Using Our Website, Located At <a href="https://skipperx.io/" target="_blank" rel="noopener noreferrer">https://skipperx.io/</a>. By Accessing Or Using Our Website, You Agree To Be Bound By These Terms And Conditions.
         </p>

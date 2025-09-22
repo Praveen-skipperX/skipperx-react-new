@@ -121,10 +121,10 @@ select {
     align-items: center;
   }
   .bold{
-    font-size: 22px;
+    font-size: 23px;
   }
   .subtitle1{
-    font-size: 15px;
+    font-size: 14px;
   }
 
   input,
@@ -139,10 +139,10 @@ select {
     max-width: 320px;
   }
   .righ{
-    margin-bottom: -15px;
+    display: none;
   }
   .lef{
-    margin-bottom: -15px;
+    display: none;
   }
   .career-form-section{
     padding: 26px 16px 36px;

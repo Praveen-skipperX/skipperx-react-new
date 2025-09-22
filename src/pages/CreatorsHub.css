@@ -505,7 +505,7 @@
   }
 
   .startup-tools-section h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .startup-tools-subtext {
@@ -645,11 +645,11 @@
 
 @media (max-width: 480px) {
   .startup-brochure-overlay h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .startup-brochure-overlay p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .startup-download-brochure-btn {
@@ -895,7 +895,7 @@
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .startup-faq-header h2{
-    font-size: 22px;
+    font-size: 24px;
   }
   .startup-faq-header{
     margin-bottom: 10px;
@@ -1093,13 +1093,13 @@
 
 @media (max-width: 768px) {
   .startup-info-heading {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
   .startup-info-heading-h3 {
     text-align: center;
-    font-size: 16px;
-    padding-left: -20px;
+    font-size: 20px;
+    margin-left: -30px;
   }
   .startup-info-para,
   .startup-info-para-poins,
@@ -1113,7 +1113,8 @@
 
 @media (max-width: 480px) {
   .startup-info-heading {
-    font-size: 16px;
+    font-size: 24px;
+    margin-left: -33px;
   }
   .startup-info-para,
   .startup-info-para-poins {
@@ -1199,7 +1200,7 @@
   font-size: 20px;
   font-style: poppins;
   color: #9A9A9A;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-bottom: -20px;
   font-weight: 400;
 }
@@ -1581,6 +1582,10 @@
     gap: 10px;
     width: 360px;
   }  
+  .startup-mentors-section h2 {
+    padding-left: 80px;
+    margin-top: -40px;
+  }
   .startup-mentors-section {
   padding: 36px 1px;
   
