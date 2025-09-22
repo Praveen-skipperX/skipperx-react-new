@@ -128,6 +128,8 @@ body, html {
 @media (max-width: 480px) {
   .desktop-img { display: none; }
   .mobile-img { display: block; }
+
+
 }
 
 @media (max-width: 480px) {
@@ -145,7 +147,7 @@ body, html {
     margin-bottom: 25px;
   }
   .btn.red {
-    width: 90%;
+    width: 60%;
     height: 44px;
     font-size: 14px;
   }
