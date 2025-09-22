@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-social">
         <span>Catch our updates on</span>
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/company/107873830/admin/page-posts/published/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
