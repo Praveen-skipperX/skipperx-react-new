@@ -22,6 +22,10 @@ import image4 from "../assets/product.png";
 import image5 from "../assets/harisha.jpg";
 
 
+import bgImagemobile from '../assets/landing-mobile.png';
+
+
+
 const teamMembers = [
   { name: "Himanshu Singh", position: "Co-Founder & CMO", image: image1, className: "member-card1",quote: "Building scalable web solutions" },
   { name: "Praveen Kittur", position: "Vice President", image: image2, className: "member-card2" ,quote: "Building scalable web solutions"},
@@ -47,7 +51,8 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="about-hero-section" style={{ backgroundImage: `url(${heroBg})` }}>
+      <div className="about-hero-section " style={{ backgroundImage: `url(${heroBg})` }}>
+        
         <div className="about-hero-overlay">
           <h1 className="about-hero-title">
             They Came with Curiosity, We Gave <br /> Them Real Skills
@@ -58,6 +63,7 @@ const About = () => {
           
         </div>
       </div>
+      
 
 
 

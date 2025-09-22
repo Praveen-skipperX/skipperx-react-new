@@ -1,13 +1,16 @@
 import React from 'react';
 import './Hero.css';
 import bgImage from '../assets/hero-landing-hd.png';
+import bgImagemobile from '../assets/landing-mobile.png';
+
 
 
 
 const Hero = () => {
   return (
     <div className="hero-img-wrapper">
-      <img src={bgImage} alt="background" className="hero-img" />
+      <img src={bgImage} alt="background" className="hero-img desktop-img" />
+      <img src={bgImagemobile} alt="background" className="hero-img mobile-img" />
       <div className="overlayp">
         <h1>
           Your dream skill is, not days, not hours but <span className="highlight-red">minutes </span> away

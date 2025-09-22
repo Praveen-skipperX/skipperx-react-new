@@ -122,13 +122,22 @@ body, html {
   }
 }
 
+.desktop-img { display: block; }
+.mobile-img { display: none; }
+
+@media (max-width: 480px) {
+  .desktop-img { display: none; }
+  .mobile-img { display: block; }
+}
+
 @media (max-width: 480px) {
   .hero-img-wrapper {
-    height: 400px;
+    height: 580px;
+    margin-top: -10px;
   }
   .overlayp h1 {
-    font-size: 26px;
-    padding-top: 120px;
+    font-size: 32px;
+    padding-top: 220px;
   }
   .overlayp p {
     font-size: 14px;
@@ -140,6 +149,8 @@ body, html {
     font-size: 14px;
   }
 }
+
+
 
 @media (max-width: 360px) {
   .hero-img-wrapper {
