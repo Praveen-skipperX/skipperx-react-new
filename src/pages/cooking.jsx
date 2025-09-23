@@ -17,6 +17,7 @@ function ComingSoonSection() {
 
   return (
     <div className="coming-soon-container">
+      
       <Navbar />
 
       <img src={bgImage} alt="Background" className="coming-soon-bg-img" />
