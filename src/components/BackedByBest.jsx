@@ -3,7 +3,7 @@ import './BackedByBest.css';
 import isroLogo from '../assets/isro-logo.png';
 import amanImage from '../assets/aman-gupta.png';
 import zah from '../assets/zah.png';
-import zahc from '../assets/zahc.png';
+import zahc from '../assets/velocity8.png';
 import ramya from '../assets/ramyaaa.png';
 import akhil from '../assets/akhil.png';
 import akhilc from '../assets/akhilc.png';

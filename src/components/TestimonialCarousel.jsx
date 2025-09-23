@@ -4,7 +4,7 @@ import testimonials from "./testimonialData";
 import navya from '../assets/navya.png';
 import sai from '../assets/sai.jpg';
 import hari from '../assets/harih.jpg';
-import sakshi from '../assets/saksh.png';
+import sakshi from '../assets/roshan.png';
 
 const TestimonialCarousel = () => {
   const [index, setIndex] = useState(1); // Start from first real slide

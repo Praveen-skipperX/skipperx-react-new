@@ -6,10 +6,10 @@ import pavan from '../assets/pavan1.png';
 import aashima from '../assets/112233.jpg';
 import anand from '../assets/anan.png';
 import sim from '../assets/sim.png';
-import harish from '../assets/harisha.jpg'
+import harish from '../assets/vinod.jpg'
 import sai from '../assets/saisai.png'
 import hari from '../assets/harih.jpg'
-import sakshi from '../assets/saksh.png'
+import sakshi from '../assets/navya.png'
 
 const testimonials = [
   {

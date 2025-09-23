@@ -44,7 +44,7 @@ const Footer = () => {
           <p><strong>1st floor, 19th Main Rd, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102</strong></p>
               
           <p><a href="#" >support@skipperx.io</a></p>
-          <p><a href="#">+91 9888888888</a></p>
+          <p><a href="#">+91 6366953507</a></p>
           
          
 
