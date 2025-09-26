@@ -348,7 +348,7 @@ const StartupStack = () => {
                 <div className="price">Price</div>
                 <div className="drone-price-section">
                   {/*<div className="drone-original-price">₹24,999</div>*/}
-                  <div className="drone-current-price">₹8,000</div>
+                  <div className="drone-current-price">₹9,000</div>
                 </div>
                 <div className="trust-footer-drone">
                   <div className="avatarsdrone">
@@ -396,7 +396,7 @@ const StartupStack = () => {
                 <div className="price">Price</div>
                 <div className="drone-price-section">
                   {/*<div className="drone-original-price">₹24,999</div>*/}
-                  <div className="drone-current-price">₹8,000</div>
+                  <div className="drone-current-price">₹9,000</div>
                 </div>
                 <div className="trust-footer-drone">
                   <div className="avatarsdrone">
