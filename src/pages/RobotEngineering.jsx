@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import certificateDisplay from "../assets/dcerti.png";
+import certificateDisplay from "../assets/new-cer.jpg";
 import brochureImage from "../assets/drone-brochure.png";
 import eightseven from "../assets/eight-seven.png";
 import faqarrow from "../assets/faqarrow.png";

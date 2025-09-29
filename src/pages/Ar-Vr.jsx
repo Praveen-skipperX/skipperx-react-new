@@ -4,7 +4,7 @@ import nineseven from "../assets/97.png";
 import nineeight from "../assets/98.png";
 import bgImage from '../assets/arvr-hero.png';
 import arvrreviewlogo from "../assets/arvr-r-logo.png";
-import certificateDisplay from "../assets/dcerti.png";
+import certificateDisplay from "../assets/new-cer.jpg";
 import brochureImage from "../assets/drone-brochure.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';

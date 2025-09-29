@@ -1,3 +1,9 @@
+@media (min-width: 1440px) {
+  .signup-page-container {
+    padding: 20px 160px !important;
+  }
+}
+
 .signup-page-container {
   display: flex;
   background: #1C1C1C;

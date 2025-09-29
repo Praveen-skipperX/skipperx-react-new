@@ -196,7 +196,7 @@
 }
 
 .founder-card img {
-  width: 60px;
+  /*width: 60px;*/
   height: 60px;
   border-radius: 50%;
   margin-bottom: 8px;
@@ -435,18 +435,20 @@
 
 .mv-content p {
   color: #ddd;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.45;
-  width: 415px;
+  width: 100%;
+  max-width: 415px;
   text-align: center;
   margin-bottom: 12px;
 }
 
 .mv-content2 p {
   color: #ddd;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.45;
-  width: 415px;
+  width: 100%;
+  max-width: 415px;
   text-align: center;
   margin-bottom: 15.6px;
 }

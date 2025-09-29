@@ -2767,7 +2767,7 @@
 }
 
 .arvr-dronehighlight{
-    background: linear-gradient(to right, #FE8324, #ff4101);
+  background: linear-gradient(to right, #FE8324, #ff4101);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Playfair Display;
@@ -2778,7 +2778,6 @@
 .arvr-faq-subtext {
   font-size: 20px;
   color: #9A9A9A;
-  
   text-align: center;
   margin-bottom: 50px;
   font-family: 'poppins', sans-serif;

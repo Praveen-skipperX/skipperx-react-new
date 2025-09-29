@@ -38,11 +38,11 @@ const teamMembers = [
 
 
 const founders = [
-
-  { name: "Sourav Kamboj", role: "Co-Founder and CEO", image: founder1 },
   { name: "Himanshu Singh", role: "Co-Founder & CMO", image: founder2 },
+  
+  {/*{ name: "Sourav Kamboj", role: "Co-Founder and CEO", image: founder1 },
   { name: "Vivek Agarwal", role: "Co-Founder and COO", image: founder3 },
-  { name: "Hemanth Ingle", role: "Co-Founder and VP", image: founder4 },
+  { name: "Hemanth Ingle", role: "Co-Founder and VP", image: founder4 },*/}
 ];
 
 
