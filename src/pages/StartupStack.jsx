@@ -261,7 +261,7 @@ const StartupStack = () => {
               <div className="startup-mentor-card">
                 <img src={p4} alt="Pratyush" />
                 <div className="startup-mentor-info">
-                  <h4>Pratyush Singh </h4>
+                  <h4>Pratyush Singh</h4>
                   <p>Finance</p>
                   <img src={p4l}  />
                 </div>
