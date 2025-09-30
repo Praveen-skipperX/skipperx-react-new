@@ -363,7 +363,7 @@ const CreatorsHub = () => {
                 <div className="startup-price">Price</div>
                 <div className="startup-price-section">
                   {/*<div className="startup-original-price">₹24,999</div>*/}
-                  <div className="startup-current-price">₹8,000</div>
+                  <div className="startup-current-price">₹9,000</div>
                 </div>
                 <div className="startup-trust-footer-drone">
                   <div className="startup-avatarsdrone">
@@ -411,7 +411,7 @@ const CreatorsHub = () => {
                 <div className="startup-price">Price</div>
                 <div className="startup-price-section">
                   {/*<div className="startup-original-price">₹24,999</div>*/}
-                  <div className="startup-current-price">₹8,000</div>
+                  <div className="startup-current-price">₹9,000</div>
                 </div>
                 <div className="startup-trust-footer-drone">
                   <div className="startup-avatarsdrone">
