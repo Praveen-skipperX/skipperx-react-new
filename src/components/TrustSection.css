@@ -1,6 +1,6 @@
 
 .trust-wrapper {
-  background: #1C1C1C;
+  background: linear-gradient(to bottom, #080808, #000000);
   color: white;
   padding: 128px 80px 64px 80px;
   text-align: center;
@@ -63,7 +63,7 @@
 }
 
 .trust-box {
-  background: linear-gradient(to right top, #292928 30%, #393838);
+  background: linear-gradient(to right ,#181818, #212121 50%, #383838 100%);
   border-radius: 8px;
   padding: 15px 20px 35px 20px;
   max-width: 1100px;

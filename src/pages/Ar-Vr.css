@@ -145,7 +145,7 @@
 
 
 .arvr-dronebody {
-  background: #1C1C1C;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   padding: 44px 120px 64px 120px;
   align-items: center;
   display: flex;
@@ -352,7 +352,7 @@
   gap: 50px;
   padding: 10px 100px 30px 120px;
   flex-wrap: wrap;
-  background: #1C1C1C;
+  background: #000;
 }
 @media screen and (max-width: 480px){
   .drone-info-section{
@@ -398,7 +398,7 @@
   display: flex;
   justify-content: space-between;
   padding: 64px 120px;
-  background: #1C1C1C;
+  background: #000;
   flex-wrap: nowrap;
   gap: 21px;
 }
@@ -962,7 +962,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #0b0b0b;
-    background-color: #000;
+    background: linear-gradient(to right ,#181818, #212121 50%, #383838 100%);
   }
   .arvr-arvr-testimonial-quote p{
     color: #D6D6D6;
@@ -1859,7 +1859,7 @@
 
 .arvr-drone-offer-section {
   text-align: center;
-  background-color: #1C1C1C;;
+  background-color: #000;;
   padding: 34px 20px;
   color: white;
 }
@@ -2101,7 +2101,7 @@
 
 .arvr-cert-drone {
   padding: 64px 120px;
-  background: #1C1C1C;
+  background: #000;
   border-radius: 12px;
   justify-content: center;
 }
@@ -2194,7 +2194,7 @@
   }
   .arvr-cert-drone {
     padding: 34px 20px;
-    background-color: #1C1C1C;
+    background-color: #000;
     border-radius: 12px;
     justify-content: center;
   }
@@ -2242,7 +2242,7 @@
 
 .arvr-brochure {
   padding: 64px 120px 45px;
-  background: #1C1C1C;
+  background: #000;
   display: flex;
   justify-content: center;
 }
@@ -2400,7 +2400,7 @@
 
 
 .arvr-skippers-section {
-  background-color: #1C1C1C;
+  background-color: #000;
   padding: 64px 120px 30px;
   text-align: center;
   color: white;
@@ -2734,7 +2734,7 @@
   justify-content: center;
   font-family: Playfair Display;
   gap: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 .arvr-faq-header h2 {
@@ -2797,6 +2797,7 @@
   border-radius: 9px;
   padding: 13px 24px;
   margin-bottom: 16px;
+  margin-top: 20px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
   transition: box-shadow 0.3s ease;
 }

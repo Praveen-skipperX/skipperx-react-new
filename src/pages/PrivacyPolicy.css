@@ -1,9 +1,11 @@
 .privacy-container {
   max-width: 900px;
-  margin: 100px auto 50px;
-  padding: 0 20px;
+  margin: 60px auto 50px;
+  padding: 0 20px 100px;
   font-family: 'Poppins', sans-serif;
   color: #dedede;
+  
+  
 }
 
 .privacy-container h1 {

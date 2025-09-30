@@ -1,5 +1,5 @@
 .best-container {
-  background-color: #0c0c0c;
+  background-color: #000;
   color: #fff;
   padding: 64px 70px 128px 70px;
   margin-left: 0px;
@@ -186,7 +186,7 @@
 
 @media (max-width: 480px) {
   .best-container {
-    padding: 64px 20px 128px 20px;
+    padding: 4px 20px 28px 20px;
   }
 
   .best-content {

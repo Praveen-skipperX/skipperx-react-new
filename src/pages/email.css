@@ -1,12 +1,12 @@
 @media (min-width: 1440px) {
   .signup-page-container {
-    padding: 20px 160px !important;
+    padding: 20px 161px !important;
   }
 }
 
 .signup-page-container {
   display: flex;
-  background: #1C1C1C;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -144,7 +144,7 @@
 
 
 .login-right-section1 {
-  background: #1C1C1C;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   max-width: 410px;
   width: 110%;
   border-radius: 10px;

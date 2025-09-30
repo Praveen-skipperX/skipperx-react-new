@@ -1,7 +1,7 @@
 /* src/components/Footer.css */
 
 .footer {
-  background-color: #000;
+  background: linear-gradient(to right ,#181818, #212121 50%, #383838 100%);
   color: #fff;
   padding: 44px 45px 15px 45px;
   border-radius: 8px;

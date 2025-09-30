@@ -1,7 +1,7 @@
 .terms-container {
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   color: white;
-  padding: 60px 30px;
+  padding: 60px 30px 100px;
   font-family: 'Poppins', sans-serif;
   max-width: 900px;
   margin: auto;

@@ -3,7 +3,7 @@
 
 .launch-section {
   width: 100%;
-  background: #0C0C0C; /* Optional gradient for whole section */
+  background: #000; /* Optional gradient for whole section */
   padding: 128px 20px 64px 55px;
   display: flex;
   justify-content: center;
@@ -144,10 +144,10 @@
 .block {
   background: linear-gradient(to left,
     
-    #C59476 -180%,
-    #606060 -90%,
-    #8041337d 100%,
-    #24211F 10%
+    #a87e64 -180%,
+    #8b8888 -90%,
+    #ad59467d 100%,
+    #342e2b 10%
 
   );
   color: #fff;

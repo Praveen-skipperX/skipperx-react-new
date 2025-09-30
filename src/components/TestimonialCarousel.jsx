@@ -119,7 +119,8 @@ const TestimonialCarousel = () => {
                 />
                 <p className="quote">“{item.quote}”</p>
                 <p className="name">{item.name}</p>
-                <p className="position">{item.position}</p>
+                <p className="position">{item.position}   </p>
+                
               </div>
               <div className="testimonial-right">
                 <img
@@ -168,3 +169,5 @@ const TestimonialCarousel = () => {
 };
 
 export default TestimonialCarousel;
+
+

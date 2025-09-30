@@ -1,8 +1,8 @@
 
 .circlebody1{
     padding-bottom: 128px;
-    padding: 64px 59px 128px 50px;
-    background-color: #1c1c1c;
+    padding: 64px 59px 64px 50px;
+    background-color: #000;
 }
 
 
@@ -43,7 +43,8 @@
   max-width: 1085px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
-  background-image: url('../assets/circlebg.png');
+  background-image: url('../assets/circlebg1.png');
+  
 }
 .circle-heading {
   text-align: center;
@@ -53,9 +54,11 @@
 }
 
 .highlightc {
-  color: #e74c3c;
+  background: linear-gradient(to right, #FE8324, #ff4101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: Playfair Display;
-  font-style: semi bold;
+  
 
 
 }

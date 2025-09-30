@@ -432,6 +432,7 @@
 
 .startup-tools-section {
   color: #fff;
+  background: linear-gradient(to bottom, #0f0a08 20% , #000000 90%);
   text-align: center;
   padding: 64px 120px;
 }
@@ -533,7 +534,7 @@
 
 .startup-brochure {
   padding: 64px 120px 45px;
-  
+  background: #000;
   display: flex;
   justify-content: center;
 }
@@ -674,7 +675,7 @@
 /* Walk Away Section */
 .startup-walk-away {
   padding: 64px 120px;
-  
+  background: #000;
   text-align: center;
   color: #fff;
 }
@@ -776,6 +777,7 @@
 .startup-faq-section {
   padding: 64px 120px 128px;
   color: #ffffff;
+  background-color: #000;
 }
 
 .startup-faq-header {

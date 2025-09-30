@@ -1,7 +1,7 @@
 .refund-container {
-  background-color: #1c1c1c;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   color: white;
-  padding: 60px 20px;
+  padding: 60px 20px 120px;
   max-width: 900px;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;

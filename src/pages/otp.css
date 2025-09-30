@@ -1,6 +1,6 @@
 .login-page-container {
   display: flex;
-  background: #1C1C1C;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -148,7 +148,7 @@
   text-align: center;
   color: white;
   font-family: "Poppins", sans-serif;
-  background: #1c1c1c;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   padding: 40px 20px;
   border-radius: 12px;
   width: 410px;

@@ -1,6 +1,6 @@
 .carousel-container {
   padding: 64px 80px 64px 80px;
-  background: 1C1C1C;
+  background: #000;
   color: #fff;
   text-align: center;
   overflow: hidden;
@@ -85,11 +85,11 @@
 .testimonial-card {
   min-width: 100%;
   display: flex;
-  background: #000;
-  background: url('../assets/X.png') no-repeat center center, #101010 30%;
+  background: linear-gradient(to right ,#181818, #212121 50%, #383838 100%);
+  /*background: url('../assets/X.png') no-repeat center center,  #211f1f 100% ;
   background-size: 420px; 
   background-position: left;
-  background-position-x: 25%;
+  background-position-x: 25%;*/
   padding: 7px 50px 5px 60px;
   border-radius: 12px;
   gap: 30px;
@@ -249,7 +249,7 @@
     flex-direction: row;   /* ✅ stack like screenshot */
     align-items: flex-start;
     padding: 20px;
-    background: #141414;      /* remove bg image */
+    background: linear-gradient(to right ,#181818, #212121 50%, #383838 100%);
   }
 
   .testimonial-left {

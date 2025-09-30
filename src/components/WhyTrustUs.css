@@ -1,8 +1,8 @@
 
 .trust-container {
-  background-color: rgb(30, 30, 30);
+  background-color: #000;
   color: #fff;
-  padding: 64px 120px 128px 120px;
+  padding: 0px 120px 128px 120px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   overflow: hidden;

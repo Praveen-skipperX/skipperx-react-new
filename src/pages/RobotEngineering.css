@@ -142,7 +142,7 @@
 
 
 .arvr2-dronebody {
-  background: #1C1C1C;
+  background: linear-gradient(to bottom , #0d0d0d , #000 100%);
   padding: 44px 120px 64px 120px;
   align-items: center;
   display: flex;
