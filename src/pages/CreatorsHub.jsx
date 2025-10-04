@@ -4,13 +4,12 @@ import { useEffect, useRef, useState } from "react";
 import eightseven from "../assets/88.png";
 import nineseven from "../assets/91.png";
 import nineeight from "../assets/97.png";
-import hubroadmap from '../assets/creative.png';
 import hubroadmapmobile from '../assets/creative-mobile.png';
+import hubroadmap from '../assets/creative.png';
 import css from '../assets/css.png';
 import brochureImage from "../assets/drone-brochure.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/vinod.jpg';
 import bulbIcon from '../assets/holding-bulb.png';
 import jup from '../assets/jup.png';
 import mat from '../assets/mat.png';
@@ -26,12 +25,13 @@ import p7 from '../assets/p7.png';
 import p8 from '../assets/p8.png';
 import p9 from '../assets/p9.png';
 import pan from '../assets/pan.png';
-import sai from '../assets/sai.jpg';
 import sakshi from '../assets/roshan.png';
+import sai from '../assets/sai.jpg';
 import sea from '../assets/sea.png';
 import sl from '../assets/sl.png';
 import tf from '../assets/tf.png';
 import up from '../assets/up.png';
+import harish from '../assets/vinod.jpg';
 import vs from '../assets/vs.png';
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
@@ -66,6 +66,9 @@ const CreatorsHub = () => {
     setActiveIndex(index === activeIndex ? null : index);
   };
   
+  useEffect(() => {
+    window.currentCourseName = "Creators Hub";
+  }, []);
   //navigation
   const scrollToForm = () => {
     const isMobile = window.innerWidth <= 480;

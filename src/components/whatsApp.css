@@ -1,0 +1,8 @@
+.floating-whatsapp-chatbox input, .floating-whatsapp-chatbox textarea {
+  color: #222 !important;
+  background: #fff !important;
+}
+
+.floating-whatsapp-chatbox input::placeholder, .floating-whatsapp-chatbox textarea::placeholder {
+  color: #888 !important;
+}

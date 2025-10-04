@@ -1,26 +1,26 @@
 import { useEffect, useRef, useState } from "react";
-import certificateDisplay from "../assets/new-cer.jpg";
 import brochureImage from "../assets/drone-brochure.png";
 import eightseven from "../assets/eight-seven.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/roshan.png';
 import bulbIcon from '../assets/holding-bulb.png';
+import certificateDisplay from "../assets/new-cer.jpg";
 import nineeight from "../assets/nine-eight.png";
 import nineseven from "../assets/nine-seven.png";
 import bgImage from '../assets/robot-hero-bg.png';
 import roborreviewlogo from "../assets/robot-review-logo.png";
+import harish from '../assets/roshan.png';
 import sai from '../assets/sai.jpg';
-import sakshi from '../assets/vinod.jpg';
 import soumya from "../assets/soumya.png";
 import suresh from "../assets/suresh.png";
+import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
+import sakshi from '../assets/vinod.jpg';
 import vishal from "../assets/vishal.png";
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
 import Navbar from '../components/Navbar';
 import '../components/responsiveUtils.css';
 import './RobotEngineering.css';
-import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
 
 
 
@@ -106,6 +106,10 @@ const modules = [
   ];
 
 const RobotEngineering = () => {
+  useEffect(() => {
+    window.currentCourseName = "Robot Engineering";
+    window.dispatchEvent(new Event("courseNameChanged"));
+  }, []);
   const scrollItems = [
     "Business Analytics",
     "Human Resource",
