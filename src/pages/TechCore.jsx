@@ -50,10 +50,7 @@ import p9l from '../assets/p9l.png';
 
 
 const TechCore = () => {
-  useEffect(() => {
-    window.currentCourseName = "Tech Core";
-    window.dispatchEvent(new Event("courseNameChanged"));
-  }, []);
+
 
   const [activeIndex, setActiveIndex] = useState(null);
   const cardRef = useRef(null);

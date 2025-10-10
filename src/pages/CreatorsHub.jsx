@@ -66,17 +66,20 @@ const CreatorsHub = () => {
     setActiveIndex(index === activeIndex ? null : index);
   };
   
-  useEffect(() => {
-    window.currentCourseName = "Creators Hub";
-  }, []);
   //navigation
   const scrollToForm = () => {
     const isMobile = window.innerWidth <= 480;
-
     const targetRef = isMobile ? mobileFormRef : desktopFormRef;
 
     if (targetRef.current) {
-      targetRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const offset = 80; // Offset from the top of the viewport (adjust as needed)
+      const elementPosition = targetRef.current.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -93,7 +96,7 @@ const CreatorsHub = () => {
 
 
   useEffect(() => {
-
+    // Handle scroll for form visibility
     const handleScroll = () => {
       if (!cardRef.current || !sectionRef.current || !offerRef.current) return;
 
@@ -108,9 +111,31 @@ const CreatorsHub = () => {
         setIsFixed(false);
       }
     };
+
+    // Handle footer's apply now button click
+    const handleScrollToForm = () => {
+      const isMobile = window.innerWidth <= 480;
+      const targetRef = isMobile ? mobileFormRef : desktopFormRef;
+
+      if (targetRef.current) {
+        const offset = 80; // Offset for header
+        const elementPosition = targetRef.current.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    };
     
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scrollToForm", handleScrollToForm);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scrollToForm", handleScrollToForm);
+    };
 
   }, []);
 

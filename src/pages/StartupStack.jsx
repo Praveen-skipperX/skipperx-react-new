@@ -65,10 +65,7 @@ const StartupStack = () => {
     setActiveIndex(index === activeIndex ? null : index);
   };
 
-    useEffect(() => {
-      window.currentCourseName = "Startup Stack";
-      window.dispatchEvent(new Event("courseNameChanged"));
-    }, []);
+
   
   //navigation
   const scrollToForm = () => {

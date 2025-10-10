@@ -109,10 +109,7 @@ const modules = [
   ];
 
 const ArVr = () => {
-  useEffect(() => {
-    window.currentCourseName = "AR-VR";
-    window.dispatchEvent(new Event("courseNameChanged"));
-  }, []);
+
   const scrollItems = [
     "Business Analytics",
     "Human Resource",

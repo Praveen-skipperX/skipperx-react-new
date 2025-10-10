@@ -106,10 +106,7 @@ const modules = [
   ];
 
 const RobotEngineering = () => {
-  useEffect(() => {
-    window.currentCourseName = "Robot Engineering";
-    window.dispatchEvent(new Event("courseNameChanged"));
-  }, []);
+
   const scrollItems = [
     "Business Analytics",
     "Human Resource",

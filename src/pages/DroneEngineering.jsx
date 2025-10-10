@@ -111,10 +111,7 @@ const modules = [
   ];
 
 const DroneEngineering = () => {
-  useEffect(() => {
-    window.currentCourseName = "Drone Engineering";
-    window.dispatchEvent(new Event("courseNameChanged"));
-  }, []);
+
   const scrollItems = [
     "Business Analytics",
     "Human Resource",
@@ -148,9 +145,6 @@ const DroneEngineering = () => {
     setShowForm(true);
   };
 
-   useEffect(() => {
-    window.currentCourseName = "Drone Engineering";
-  }, []);
   
   //scrolling
   const scrollToForm = () => {
