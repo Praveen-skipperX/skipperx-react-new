@@ -22,6 +22,7 @@ import Otp from './pages/otp';
 import Cooking from './pages/cooking';
 //import Forget from './pages/forget';
 
+
 import Dashboard from './components/dashboard/Dashboard';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -50,6 +51,8 @@ function App() {
         <Route path="/email" element={<Email />} />
         <Route path="/otp" element={<Otp />} />
         <Route path="/cooking" element={<Cooking />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
+
         <Route path="/Dashboard" element={<Dashboard />} />
         
 

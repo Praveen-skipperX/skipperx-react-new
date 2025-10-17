@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./email.css";
 import loginImage from "../assets/login-bg1.png"; 
 import googleLogo from "../assets/login-google.png";
@@ -9,6 +10,13 @@ import sakshi from '../assets/saksh.png'
 import logo from '../assets/skipper-black.png';
 
 const Email = () => {
+
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+      e.preventDefault(); // prevent refresh
+      navigate("/otp");   // go to OTP page
+    };
   return (
     <div className="signup-page-container">
      
@@ -49,7 +57,7 @@ const Email = () => {
         
           
       <div className="login-right-section1">
-        <form className="login-form1">
+        <form className="login-form1" onSubmit={handleSubmit}>
           
           <img src={logo} alt="Skipper Logo" className="login-title"/>
           
