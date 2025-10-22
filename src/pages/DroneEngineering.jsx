@@ -2,26 +2,26 @@ import { useEffect, useRef, useState } from "react";
 import eigth from "../assets/88.png";
 import nineone from "../assets/91.png";
 import nineseven from "../assets/97.png";
-import certificateDisplay from "../assets/new-cer.jpg";
 import droneBg from "../assets/drone-bg-image.png";
 import brochureImage from "../assets/drone-brochure.png";
+import dronepartsmobile from "../assets/drone-parts-mobile.png";
 import bgImage from '../assets/dronebg.png';
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/vinod.jpg';
 import bulbIcon from '../assets/holding-bulb.png';
-import sai from '../assets/sai.jpg';
+import certificateDisplay from "../assets/new-cer.jpg";
 import sakshi from '../assets/roshan.png';
+import sai from '../assets/sai.jpg';
 import soumya from "../assets/soumya.png";
 import suresh from "../assets/suresh.png";
+import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
+import harish from '../assets/vinod.jpg';
 import vishal from "../assets/vishal.png";
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
 import Navbar from '../components/Navbar';
 import '../components/responsiveUtils.css';
 import './DroneEngineering.css';
-import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
-import dronepartsmobile from "../assets/drone-parts-mobile.png";
 
 
 
@@ -111,6 +111,7 @@ const modules = [
   ];
 
 const DroneEngineering = () => {
+
   const scrollItems = [
     "Business Analytics",
     "Human Resource",
@@ -143,6 +144,7 @@ const DroneEngineering = () => {
   const handlePricingClick = () => {
     setShowForm(true);
   };
+
   
   //scrolling
   const scrollToForm = () => {

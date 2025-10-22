@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
 import bgImage from '../assets/X.png'; // Replace with actual image path
+import Navbar from '../components/Navbar';
 import './cooking.css';
 
 function ComingSoonSection() {

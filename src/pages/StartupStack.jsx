@@ -7,7 +7,6 @@ import css from '../assets/css.png';
 import brochureImage from "../assets/drone-brochure.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/vinod.jpg';
 import bulbIcon from '../assets/holding-bulb.png';
 import jup from '../assets/jup.png';
 import mat from '../assets/mat.png';
@@ -23,14 +22,15 @@ import p7 from '../assets/p7.png';
 import p8 from '../assets/p8.png';
 import p9 from '../assets/p9.png';
 import pan from '../assets/pan.png';
-import sai from '../assets/sai.jpg';
 import sakshi from '../assets/roshan.png';
+import sai from '../assets/sai.jpg';
 import sea from '../assets/sea.png';
 import sl from '../assets/sl.png';
 import roadmap from '../assets/stack-roadmap.png';
 import roadmapmobile from '../assets/startup-mobile.png';
 import tf from '../assets/tf.png';
 import up from '../assets/up.png';
+import harish from '../assets/vinod.jpg';
 import vs from '../assets/vs.png';
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
@@ -64,6 +64,8 @@ const StartupStack = () => {
   const toggleAccordion = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
+
+
   
   //navigation
   const scrollToForm = () => {

@@ -4,13 +4,12 @@ import { useEffect, useRef, useState } from "react";
 import eightseven from "../assets/88.png";
 import nineseven from "../assets/91.png";
 import nineeight from "../assets/97.png";
-import hubroadmap from '../assets/creative.png';
 import hubroadmapmobile from '../assets/creative-mobile.png';
+import hubroadmap from '../assets/creative.png';
 import css from '../assets/css.png';
 import brochureImage from "../assets/drone-brochure.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/vinod.jpg';
 import bulbIcon from '../assets/holding-bulb.png';
 import jup from '../assets/jup.png';
 import mat from '../assets/mat.png';
@@ -26,12 +25,13 @@ import p7 from '../assets/p7.png';
 import p8 from '../assets/p8.png';
 import p9 from '../assets/p9.png';
 import pan from '../assets/pan.png';
-import sai from '../assets/sai.jpg';
 import sakshi from '../assets/roshan.png';
+import sai from '../assets/sai.jpg';
 import sea from '../assets/sea.png';
 import sl from '../assets/sl.png';
 import tf from '../assets/tf.png';
 import up from '../assets/up.png';
+import harish from '../assets/vinod.jpg';
 import vs from '../assets/vs.png';
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
@@ -69,11 +69,17 @@ const CreatorsHub = () => {
   //navigation
   const scrollToForm = () => {
     const isMobile = window.innerWidth <= 480;
-
     const targetRef = isMobile ? mobileFormRef : desktopFormRef;
 
     if (targetRef.current) {
-      targetRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const offset = 80; // Offset from the top of the viewport (adjust as needed)
+      const elementPosition = targetRef.current.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -90,7 +96,7 @@ const CreatorsHub = () => {
 
 
   useEffect(() => {
-
+    // Handle scroll for form visibility
     const handleScroll = () => {
       if (!cardRef.current || !sectionRef.current || !offerRef.current) return;
 
@@ -105,9 +111,31 @@ const CreatorsHub = () => {
         setIsFixed(false);
       }
     };
+
+    // Handle footer's apply now button click
+    const handleScrollToForm = () => {
+      const isMobile = window.innerWidth <= 480;
+      const targetRef = isMobile ? mobileFormRef : desktopFormRef;
+
+      if (targetRef.current) {
+        const offset = 80; // Offset for header
+        const elementPosition = targetRef.current.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    };
     
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scrollToForm", handleScrollToForm);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scrollToForm", handleScrollToForm);
+    };
 
   }, []);
 

@@ -8,7 +8,6 @@ import css from '../assets/css.png';
 import brochureImage from "../assets/drone-brochure.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/vinod.jpg';
 import bulbIcon from '../assets/holding-bulb.png';
 import jup from '../assets/jup.png';
 import mat from '../assets/mat.png';
@@ -24,20 +23,20 @@ import p7 from '../assets/p7.png';
 import p8 from '../assets/p8.png';
 import p9 from '../assets/p9.png';
 import pan from '../assets/pan.png';
-import sai from '../assets/sai.jpg';
 import sakshi from '../assets/roshan.png';
+import sai from '../assets/sai.jpg';
 import sea from '../assets/sea.png';
 import sl from '../assets/sl.png';
-import techroadmap from '../assets/Tech.png';
 import techroadmapmobile from '../assets/tech-core-mobile.png';
+import techroadmap from '../assets/Tech.png';
 import tf from '../assets/tf.png';
 import up from '../assets/up.png';
+import harish from '../assets/vinod.jpg';
 import vs from '../assets/vs.png';
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
 import Navbar from '../components/Navbar';
 import '../components/responsiveUtils.css';
-import "./TechCore.css";
 
 import p1l from '../assets/p1l.png';
 import p2l from '../assets/p2l.png';
@@ -52,13 +51,13 @@ import p9l from '../assets/p9l.png';
 
 const TechCore = () => {
 
+
   const [activeIndex, setActiveIndex] = useState(null);
   const cardRef = useRef(null);
   const sectionRef = useRef(null); 
   const offerRef = useRef(null);
   const desktopFormRef = useRef(null);
   const mobileFormRef = useRef(null);//navigation
-
 
   const [isFixed, setIsFixed] = useState(false);
   const [offsetTop, setOffsetTop] = useState(0);
@@ -78,16 +77,13 @@ const TechCore = () => {
     }
   };
 
-  
   const [showForm, setShowForm] = useState(false);
 
   const handlePricingClick = () => {
     setShowForm(true);
   };
 
-
   useEffect(() => {
-
     const handleScroll = () => {
       if (!cardRef.current || !sectionRef.current || !offerRef.current) return;
 

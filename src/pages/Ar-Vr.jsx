@@ -4,17 +4,17 @@ import nineseven from "../assets/97.png";
 import nineeight from "../assets/98.png";
 import bgImage from '../assets/arvr-hero.png';
 import arvrreviewlogo from "../assets/arvr-r-logo.png";
-import certificateDisplay from "../assets/new-cer.jpg";
 import brochureImage from "../assets/drone-brochure.png";
 import faqarrow from "../assets/faqarrow.png";
 import hari from '../assets/harih.jpg';
-import harish from '../assets/vinod.jpg';
 import bulbIcon from '../assets/holding-bulb.png';
-import sai from '../assets/sai.jpg';
+import certificateDisplay from "../assets/new-cer.jpg";
 import sakshi from '../assets/roshan.png';
+import sai from '../assets/sai.jpg';
 import soumya from "../assets/soumya.png";
-import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
 import suresh from "../assets/suresh.png";
+import arvrskippertopmobile from "../assets/top3-skipperx-mobile.png";
+import harish from '../assets/vinod.jpg';
 import vishal from "../assets/vishal.png";
 import Footer from '../components/Footer';
 import GoogleSheetForm from '../components/GoogleSheetForm';
@@ -109,6 +109,7 @@ const modules = [
   ];
 
 const ArVr = () => {
+
   const scrollItems = [
     "Business Analytics",
     "Human Resource",

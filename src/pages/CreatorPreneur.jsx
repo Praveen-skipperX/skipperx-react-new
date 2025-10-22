@@ -79,7 +79,7 @@ const CreatorPreneur = () => {
       {/* Hero Section */}
       <section className="creator-hero">
         <div className="creator-hero-content">
-          <h1>Old Lessons Don't Build New-Age Creators skipperx -</h1>
+          <h1>Old Lessons Don't Build New-Age Creators -</h1>
           <h2 className="welcome-text">Welcome to <span className="highlight">Creatorpreneur</span></h2>
           <p>Where you don't study marketing, you live it through challenges, brand sprints, and creator-led growth.</p>
           <button className="creator-start-btn">Start Learning</button>
