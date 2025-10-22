@@ -26,7 +26,7 @@ import Cooking from './pages/cooking';
 import Dashboard from './components/dashboard/Dashboard';
 import ScrollToTop from './components/ScrollToTop';
 
-
+import CreatorPreneur from './pages/CreatorPreneur';
 
 function App() {
   return (
@@ -53,7 +53,7 @@ function App() {
         <Route path="/cooking" element={<Cooking />} />
         <Route path="/Dashboard" element={<Dashboard />} />
 
-        <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/CreatorPreneur" element={<CreatorPreneur />} />
         
 
       </Routes>

@@ -16,8 +16,8 @@ const Login = () => {
     const navigate = useNavigate();
 
     const handleSubmit = (e) => {
-      e.preventDefault(); // prevent refresh
-      navigate("/otp");   // go to OTP page
+      e.preventDefault(); 
+      navigate("/otp");   
     };
 
 
